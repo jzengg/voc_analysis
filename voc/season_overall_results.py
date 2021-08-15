@@ -1,12 +1,11 @@
 import requests
-import pprint
 import itertools
 from typing import List, Tuple, Dict
 
 from bs4 import BeautifulSoup
 from enum import Enum
 
-pp = pprint.PrettyPrinter(indent=4)
+from voc.constants import pp, SEASON_1_URL
 
 
 class RankCategory(Enum):
@@ -86,7 +85,7 @@ def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
 
 if __name__ == "__main__":
     season_1_response = requests.get(
-        url="https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)",
+        url=SEASON_1_URL,
     )
     season_1_soup = BeautifulSoup(season_1_response.content, "html.parser")
     season_1_contestants, season_1_judges = get_season_results(season_1_soup)
