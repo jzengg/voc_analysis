@@ -36,7 +36,7 @@ def parse_name_cell(cell):
 
 
 def parse_song_cell(cell):
-    song_title_tag = cell.a or cell.span
+    song_title_tag = cell.span or cell.a
     song_title = song_title_tag.string.strip()
     song_author = (
         [s for s in cell.sub.stripped_strings][-1].split("originally by")[-1].strip()
