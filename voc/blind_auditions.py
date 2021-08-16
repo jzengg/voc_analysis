@@ -2,9 +2,11 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-from voc.constants import pp
+from voc.constants import pp, SEASON_1_URL
+from voc.utils import get_background_color_from_style, process_table_row_spans
 
 INVALID_NAME_COMPONENTS = [","]
+COACH_AND_CONTESTANT_CHOICE_SELECTED_COLORS = ["#ffc40c", "#fdfc8f"]
 
 
 def parse_name_cell(cell):
@@ -44,23 +46,51 @@ def parse_song_cell(cell):
     return {"song_author": song_author, "song_title": song_title}
 
 
-if __name__ == "__main__":
-    season_1_response = requests.get(
-        url="https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)",
+def parse_coach_and_contestant_choice_cell(cells):
+    judge_choices = [bool(cell.a) for cell in cells]
+    selected_judge = next(
+        (
+            index
+            for index, cell in enumerate(cells)
+            if get_background_color_from_style(cell.attrs.get("style"))
+            in COACH_AND_CONTESTANT_CHOICE_SELECTED_COLORS
+        ),
+        None,
     )
-    season_1_soup = BeautifulSoup(season_1_response.content, "html.parser")
-    audition_results_tables = season_1_soup.find_all("table", class_="wikitable")[1:7]
-    judges = [
-        s for s in audition_results_tables[0].tbody.find_all("tr")[1].stripped_strings
-    ]
+    return {"judge_choices": judge_choices, "selected_judge": selected_judge}
+
+
+def get_season_results(season_soup):
+    audition_results_tables = season_soup.find_all("table", class_="wikitable")[1:7]
+    # judges = [
+    #     s for s in audition_results_tables[0].tbody.find_all("tr")[1].stripped_strings
+    # ]
+    results = []
     for table in audition_results_tables:
-        episode_results = table.tbody.find_all("tr")[2:]
-        for episode in episode_results:
-            contestant_row = episode.find_all("td")
+        processed_table = process_table_row_spans(table, season_1_soup)
+        for contestant_row in processed_table[1:]:
             if not contestant_row:
                 continue
+            # TODO rewrite parsers to handle season 1 vs season 2 format, by num cols?
             name_cell, song_cell, *coach_choices = contestant_row
             name_cell_data = parse_name_cell(name_cell)
             song_cell_data = parse_song_cell(song_cell)
-            pp.pprint(name_cell_data)
-            pp.pprint(song_cell_data)
+            coach_and_contestant_choice_cell_data = (
+                parse_coach_and_contestant_choice_cell(coach_choices)
+            )
+            contestant_row_data = {
+                **name_cell_data,
+                **song_cell_data,
+                **coach_and_contestant_choice_cell_data,
+            }
+            results.append(contestant_row_data)
+    return results
+
+
+if __name__ == "__main__":
+    season_1_response = requests.get(
+        url=SEASON_1_URL,
+    )
+    season_1_soup = BeautifulSoup(season_1_response.content, "html.parser")
+    results = get_season_results(season_1_soup)
+    pp.pprint(results)

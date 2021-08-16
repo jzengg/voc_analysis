@@ -1,3 +1,5 @@
 .DS_STORE
 .idea
 venv
+__pycache__/
+voc/__pycache__

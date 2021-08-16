@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from enum import Enum
 
 from voc.constants import pp, SEASON_1_URL
+from voc.utils import get_background_color_from_style
 
 
 class RankCategory(Enum):
@@ -30,18 +31,6 @@ COLOR_TO_RANK = {
     "#A8E4A0": RankCategory.ELIMINATED_IN_KNOCKOUTS,
     "#FDFD96": RankCategory.ELIMINATED_IN_BATTLES,
 }
-
-
-def get_background_color_from_style(styles: str) -> str:
-    return (
-        next(
-            style
-            for style in styles.split(";")
-            if "background-color" in style or "background" in style
-        )
-        .split(":")[1]
-        .strip()
-    )
 
 
 def get_rank_from_style(styles: str) -> RankCategory:
