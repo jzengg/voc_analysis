@@ -3,7 +3,10 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-from voc.constants import pp, VOC_SEASON_URLS
+from voc.constants import (
+    pp,
+    ALL_SEASON_URLS,
+)
 from voc.utils import get_background_color_from_style, process_table_row_spans
 
 INVALID_NAME_COMPONENTS = [","]
@@ -51,19 +54,32 @@ def parse_age_cell(cell):
     if not age_raw:
         return {"age": None}
     age_components = age_raw.split("/")
-    age = int(age_components[0])
+    try:
+        age = int(age_components[0])
+    except Exception as e:
+        print(e)
+        print(cell)
+        age = None
     return {"age": age}
 
 
 def parse_song_cell(cell):
     song_title_tag = cell.a or cell.span or cell
-    try:
-        song_title = song_title_tag.string.strip()
-    except Exception as e:
-        print(e)
+    song_title = song_title_tag.string.strip()
     song_title = song_title.replace('"', "")
     song_title = song_title.replace("'", "")
     return {"song_title": song_title}
+
+
+def parse_location_cell(cell):
+    try:
+        location = next(cell.stripped_strings)
+    except StopIteration:
+        location = None
+        print("no location found", cell)
+    except Exception as e:
+        raise e
+    return {"location": location}
 
 
 def parse_season_1_coach_and_contestant_choice_cells(cells):
@@ -111,15 +127,27 @@ def parse_unstructured_contestant_row(contestant_row):
 
 
 def parse_structured_contestant_row(contestant_row):
-    name_cell, age_cell, hometown_cell, song_cell, *coach_choices = contestant_row
+    (
+        name_cell,
+        age_cell,
+        hometown_cell,
+        song_cell,
+        coach_1,
+        coach_2,
+        coach_3,
+        coach_4,
+        *_,
+    ) = contestant_row
     name_cell_data = parse_name_cell(name_cell)
     age_cell_data = parse_age_cell(age_cell)
     song_cell_data = parse_song_cell(song_cell)
+    location_cell_data = parse_location_cell(hometown_cell)
     coach_and_contestant_choice_cell_data = parse_coach_and_contestant_choice_cells(
-        coach_choices
+        [coach_1, coach_2, coach_3, coach_4]
     )
     contestant_row_data = {
         **age_cell_data,
+        **location_cell_data,
         **name_cell_data,
         **song_cell_data,
         **coach_and_contestant_choice_cell_data,
@@ -138,33 +166,35 @@ def get_season_results(season_soup):
         in [s for s in table.tbody.tr.stripped_strings]
     ]
 
-    # judges = [
-    #     s for s in audition_results_tables[0].tbody.find_all("tr")[1].stripped_strings
-    # ]
+    judges = [
+        s for s in audition_results_tables[0].tbody.find_all("tr")[1].stripped_strings
+    ]
     results = []
     for table in audition_results_tables:
         processed_table = process_table_row_spans(table, season_soup)
         for contestant_row in processed_table[1:]:
             if not contestant_row:
                 continue
-            if len(contestant_row) == 8:
+            if len(contestant_row) >= 8:
                 contestant_row_data = parse_structured_contestant_row(contestant_row)
             else:
                 contestant_row_data = parse_unstructured_contestant_row(contestant_row)
             results.append(contestant_row_data)
-    return results
+    return results, judges
 
 
 if __name__ == "__main__":
-    season_urls = VOC_SEASON_URLS
+    season_urls = [*ALL_SEASON_URLS]
     season_results = []
     for season_url in season_urls:
         season_response = requests.get(
             url=season_url,
         )
         soup = BeautifulSoup(season_response.content, "html.parser")
-        results = get_season_results(soup)
-        season_results.append({"results": results, "wiki_url": season_url})
+        results, judges = get_season_results(soup)
+        season_results.append(
+            {"results": results, "wiki_url": season_url, "judges": judges}
+        )
     with open("../data/blind_auditions_voc.json", "w") as f:
         json.dump(season_results, f)
     pp.pprint(season_results)
