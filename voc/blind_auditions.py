@@ -1,3 +1,4 @@
+import json
 import requests
 import re
 from bs4 import BeautifulSoup
@@ -164,4 +165,6 @@ if __name__ == "__main__":
         soup = BeautifulSoup(season_response.content, "html.parser")
         results = get_season_results(soup)
         season_results.append({"results": results, "wiki_url": season_url})
+    with open("../data/blind_auditions_voc.json", "w") as f:
+        json.dump(season_results, f)
     pp.pprint(season_results)
