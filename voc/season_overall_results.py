@@ -39,6 +39,7 @@ def get_rank_from_style(styles: str) -> RankCategory:
     return rank
 
 
+# TODO handle stolen contestants in table
 def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
     results_summary_table = season_soup.find_all("table", class_="wikitable")[0]
     rows = results_summary_table.find_all("tr")

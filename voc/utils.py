@@ -11,7 +11,7 @@ def get_background_color_from_style(styles: str) -> str:
     )
     if not attr:
         return ""
-    color = attr.split(":")[1].strip()
+    color = attr.split(":")[1].strip().lower()
     return color
 
 

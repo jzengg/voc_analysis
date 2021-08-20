@@ -20,4 +20,6 @@ ALL_SEASON_URLS = [
     SEASON_8_URL,
 ]
 
+VOC_SEASON_URLS = [SEASON_1_URL, SEASON_2_URL, SEASON_3_URL, SEASON_4_URL]
+
 pp = pprint.PrettyPrinter(indent=4)
