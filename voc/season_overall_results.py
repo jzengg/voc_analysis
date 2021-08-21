@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from enum import Enum
 
 from voc.constants import pp, ALL_SEASON_URLS
-from voc.utils import get_background_color_from_style
+from voc.utils import get_background_color_from_style, split_english_and_chinese_name
 
 
 class RankCategory(int, Enum):
@@ -102,10 +102,11 @@ def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
                 # don't double count contestants that were stolen
                 if rank == RankCategory.STOLEN_BY_ANOTHER_JUDGE:
                     continue
+                name_data = split_english_and_chinese_name(result_raw["content"])
                 result = {
                     "rank_category_value": rank,
                     "rank_category_name": RankCategory(rank).name,
-                    "name": result_raw["content"],
+                    **name_data,
                     "judge_name": judge_name,
                 }
                 judge_results.append(result)

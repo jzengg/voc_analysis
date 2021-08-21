@@ -7,7 +7,11 @@ from voc.constants import (
     pp,
     ALL_SEASON_URLS,
 )
-from voc.utils import get_background_color_from_style, process_table_row_spans
+from voc.utils import (
+    get_background_color_from_style,
+    process_table_row_spans,
+    split_english_and_chinese_name,
+)
 
 INVALID_NAME_COMPONENTS = [","]
 COACH_AND_CONTESTANT_CHOICE_SELECTED_COLORS = ["#ffc40c", "#fdfc8f"]
@@ -44,9 +48,8 @@ def parse_unstructured_name_cell(cell):
 def parse_name_cell(cell):
     tag = cell.a or cell
     name_raw = next(tag.stripped_strings)
-    *english_name_parts, chinese_name = re.split(r"\W+", name_raw)
-    english_name = " ".join(english_name_parts)
-    return {"english_name": english_name, "chinese_name": chinese_name}
+    name_data = split_english_and_chinese_name(name_raw)
+    return name_data
 
 
 def parse_age_cell(cell):

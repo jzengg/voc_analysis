@@ -1,3 +1,6 @@
+import re
+
+
 def get_background_color_from_style(styles: str) -> str:
     if not styles:
         return ""
@@ -36,3 +39,9 @@ def process_table_row_spans(table, bs):
                     new_td = bs.new_tag("td")
                     results[row_index + i].insert(td_index, new_td)
     return results
+
+
+def split_english_and_chinese_name(name_raw):
+    *english_name_parts, chinese_name = re.split(r"\W+", name_raw)
+    english_name = " ".join(english_name_parts)
+    return {"english_name": english_name, "chinese_name": chinese_name}
