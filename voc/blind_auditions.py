@@ -66,6 +66,21 @@ def parse_age_cell(cell):
     return {"age": age}
 
 
+def parse_unstructured_song_cell(cell):
+    text_not_in_span = cell.contents[0]
+    text_not_in_span = text_not_in_span.strip()
+    text_not_in_span = text_not_in_span.replace('"', "")
+    text_not_in_span = text_not_in_span.replace("'", "")
+    if text_not_in_span:
+        song_title = text_not_in_span
+    else:
+        song_title_tag = cell.span or cell.a
+        song_title = song_title_tag.string.strip()
+    song_title = song_title.replace('"', "")
+    song_title = song_title.replace("'", "")
+    return {"song_title": song_title}
+
+
 def parse_song_cell(cell):
     song_title_tag = cell.a or cell.span or cell
     song_title = song_title_tag.string.strip()
@@ -117,7 +132,7 @@ def parse_coach_and_contestant_choice_cells(cells):
 def parse_unstructured_contestant_row(contestant_row):
     name_cell, song_cell, *coach_choices = contestant_row
     name_cell_data = parse_unstructured_name_cell(name_cell)
-    song_cell_data = parse_song_cell(song_cell)
+    song_cell_data = parse_unstructured_song_cell(song_cell)
     coach_and_contestant_choice_cell_data = (
         parse_season_1_coach_and_contestant_choice_cells(coach_choices)
     )

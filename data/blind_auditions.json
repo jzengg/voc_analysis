@@ -33,7 +33,7 @@
                 ],
                 "location": "Xuancheng, Anhui",
                 "selected_judge": 1,
-                "song_title": "Wang Feng"
+                "song_title": "\u6625\u5929\u91cc"
             },
             {
                 "age": 25,
@@ -75,7 +75,7 @@
                 ],
                 "location": "Chengdu, Sichuan",
                 "selected_judge": 2,
-                "song_title": "Coco Lee"
+                "song_title": "\u81ea\u5df1"
             },
             {
                 "age": 24,
@@ -89,7 +89,7 @@
                 ],
                 "location": "Qiqihar, Heilongjiang",
                 "selected_judge": 2,
-                "song_title": "Qu Wanting"
+                "song_title": "\u6211\u7684\u6b4c\u58f0\u91cc"
             },
             {
                 "age": 22,
@@ -103,7 +103,7 @@
                 ],
                 "location": "Jinping, Honghe, Yunnan",
                 "selected_judge": 3,
-                "song_title": "In that place wholly faraway; Z\u00e0i N\u00e0 Y\u00e1oyu\u01cen D\u00ec D\u00ecf\u0101ng"
+                "song_title": "\u5728\u90a3\u9065\u8fdc\u7684\u5730\u65b9"
             },
             {
                 "age": 26,
@@ -145,7 +145,7 @@
                 ],
                 "location": "Banqiao, New Taipei, Taiwan",
                 "selected_judge": 1,
-                "song_title": "Teresa Teng"
+                "song_title": "\u72ec\u4e0a\u897f\u697c"
             },
             {
                 "age": 24,
@@ -173,7 +173,7 @@
                 ],
                 "location": "Taiyuan, Shanxi",
                 "selected_judge": 3,
-                "song_title": "Tsai Chin"
+                "song_title": "\u88ab\u9057\u5fd8\u7684\u65f6\u5149"
             },
             {
                 "age": 32,
@@ -201,7 +201,7 @@
                 ],
                 "location": "Huai'an, Jiangsu",
                 "selected_judge": 2,
-                "song_title": "Gary Chaw"
+                "song_title": "\u5bc2\u5bde\u5148\u751f"
             },
             {
                 "age": 26,
@@ -215,7 +215,7 @@
                 ],
                 "location": "Sanming, Fujian",
                 "selected_judge": null,
-                "song_title": "Wakin Chau"
+                "song_title": "\u5200\u5251\u5982\u68a6"
             },
             {
                 "age": 27,
@@ -229,7 +229,7 @@
                 ],
                 "location": "Karamay, Xinjiang",
                 "selected_judge": 1,
-                "song_title": "Sodagreen"
+                "song_title": "\u5c0f\u60c5\u6b4c"
             },
             {
                 "age": 31,
@@ -243,7 +243,7 @@
                 ],
                 "location": "Tianjin",
                 "selected_judge": null,
-                "song_title": "Natasha Na"
+                "song_title": "\u4e0d\u7ba1\u6709\u591a\u82e6"
             },
             {
                 "age": 26,
@@ -271,7 +271,7 @@
                 ],
                 "location": "Wuhan, Hubei",
                 "selected_judge": null,
-                "song_title": "Angus Tung"
+                "song_title": "\u5176\u5b9e\u4f60\u4e0d\u61c2\u6211\u7684\u5fc3"
             },
             {
                 "age": 34,
@@ -285,7 +285,7 @@
                 ],
                 "location": "Shanghai",
                 "selected_judge": 0,
-                "song_title": "I Love You, China; W\u01d2 \u00c0i N\u01d0 Zh\u014dnggu\u00f3"
+                "song_title": "\u6211\u7231\u4f60\u4e2d\u56fd"
             },
             {
                 "age": 26,
@@ -299,7 +299,7 @@
                 ],
                 "location": "Guizhou",
                 "selected_judge": 0,
-                "song_title": "A-mei"
+                "song_title": "\u4e00\u60f3\u5230\u4f60\u5440"
             },
             {
                 "age": 20,
@@ -313,7 +313,7 @@
                 ],
                 "location": "Qiqihar, Heilongjiang",
                 "selected_judge": 3,
-                "song_title": "Jessie J"
+                "song_title": "Price Tag"
             },
             {
                 "age": 30,
@@ -341,7 +341,7 @@
                 ],
                 "location": "Hunan",
                 "selected_judge": 2,
-                "song_title": "Liu Huan"
+                "song_title": "\u5f2f\u5f2f\u7684\u6708\u4eae"
             },
             {
                 "age": 22,
@@ -355,7 +355,7 @@
                 ],
                 "location": "Tangshan, Hebei",
                 "selected_judge": 3,
-                "song_title": "Zheng Jun"
+                "song_title": "\u56de\u5230\u62c9\u8428"
             },
             {
                 "age": 22,
@@ -369,7 +369,7 @@
                 ],
                 "location": "Qingdao, Shandong",
                 "selected_judge": 0,
-                "song_title": "You and Me; W\u01d2 H\u00e9 N\u01d0"
+                "song_title": "\u6211\u548c\u4f60 (You and Me)"
             },
             {
                 "age": 25,
@@ -383,7 +383,7 @@
                 ],
                 "location": "Pingliang, Gansu",
                 "selected_judge": 0,
-                "song_title": "Mavis Fan"
+                "song_title": "\u6211\u8981\u6211\u4eec\u5728\u4e00\u8d77"
             },
             {
                 "age": 29,
@@ -411,7 +411,7 @@
                 ],
                 "location": "Guiyang, Guizhou",
                 "selected_judge": null,
-                "song_title": "Sarah Chen"
+                "song_title": "\u68a6\u9192\u65f6\u5206"
             },
             {
                 "age": 20,
@@ -425,7 +425,7 @@
                 ],
                 "location": "Chengdu, Sichuan",
                 "selected_judge": 0,
-                "song_title": "Chang Yu-sheng"
+                "song_title": "\u5929\u5929\u60f3\u4f60"
             },
             {
                 "age": 23,
@@ -439,7 +439,7 @@
                 ],
                 "location": "Panjin, Liaoning",
                 "selected_judge": 3,
-                "song_title": "A-mei"
+                "song_title": "\u7231\u4ec0\u4e48\u7a00\u7f55"
             },
             {
                 "age": 25,
@@ -467,7 +467,7 @@
                 ],
                 "location": "Beijing",
                 "selected_judge": null,
-                "song_title": "Karen Mok"
+                "song_title": "\u5982\u679c\u6ca1\u6709\u4f60"
             },
             {
                 "age": 25,
@@ -481,7 +481,7 @@
                 ],
                 "location": "Changchun, Jilin",
                 "selected_judge": 2,
-                "song_title": "David Tao"
+                "song_title": "\u98de\u673a\u573a\u7684\u5341\u70b9\u534a"
             },
             {
                 "age": 25,
@@ -495,7 +495,7 @@
                 ],
                 "location": "Jilin",
                 "selected_judge": 2,
-                "song_title": "A-mei"
+                "song_title": "\u7231\u4ec0\u4e48\u7a00\u7f55"
             },
             {
                 "age": 30,
@@ -509,7 +509,7 @@
                 ],
                 "location": "Jilin",
                 "selected_judge": 0,
-                "song_title": "Rene Liu"
+                "song_title": "\u4e3a\u7231\u75af\u72c2"
             },
             {
                 "age": 27,
@@ -523,7 +523,7 @@
                 ],
                 "location": "Tainan",
                 "selected_judge": 1,
-                "song_title": "Chang Yu-sheng"
+                "song_title": "\u6211\u671f\u5f85"
             },
             {
                 "age": 19,
@@ -551,7 +551,7 @@
                 ],
                 "location": "Liaozhong, Shenyang, Liaoning",
                 "selected_judge": null,
-                "song_title": "Wang Feng"
+                "song_title": "\u4f60\u662f\u6211\u5fc3\u7231\u7684\u59d1\u5a18"
             },
             {
                 "age": 24,
@@ -565,7 +565,7 @@
                 ],
                 "location": "Hualien, Taiwan",
                 "selected_judge": 3,
-                "song_title": "Leehom Wang"
+                "song_title": "\u7f8e"
             },
             {
                 "age": 34,
@@ -579,7 +579,7 @@
                 ],
                 "location": "Fujian",
                 "selected_judge": 3,
-                "song_title": "Chyi Chin"
+                "song_title": "\u591c\u591c\u591c\u591c"
             },
             {
                 "age": 19,
@@ -593,7 +593,7 @@
                 ],
                 "location": "Hangzhou, Zhejiang",
                 "selected_judge": null,
-                "song_title": "Harlem Yu"
+                "song_title": "\u5927\u773c\u775b"
             },
             {
                 "age": 21,
@@ -607,7 +607,7 @@
                 ],
                 "location": "Changchun, Jilin",
                 "selected_judge": 1,
-                "song_title": "Zheng Jun"
+                "song_title": "\u957f\u5b89\u957f\u5b89"
             },
             {
                 "age": 23,
@@ -635,7 +635,7 @@
                 ],
                 "location": "Beijing",
                 "selected_judge": 0,
-                "song_title": "Winnie Hsin"
+                "song_title": "\u9886\u609f"
             },
             {
                 "age": 23,
@@ -649,7 +649,7 @@
                 ],
                 "location": "Shanghai",
                 "selected_judge": 2,
-                "song_title": "Sun Nan"
+                "song_title": "\u71c3\u70e7"
             },
             {
                 "age": 22,
@@ -663,7 +663,7 @@
                 ],
                 "location": "Gongshan, Xinyang, Henan",
                 "selected_judge": 1,
-                "song_title": "Chyi Chin"
+                "song_title": "\u7231\u7684\u7bb4\u8a00"
             },
             {
                 "age": 21,
@@ -677,7 +677,7 @@
                 ],
                 "location": "Chengdu, Sichuan",
                 "selected_judge": 3,
-                "song_title": "Faye Wong"
+                "song_title": "\u5f00\u5230\u837c\u863c"
             },
             {
                 "age": 34,
@@ -705,7 +705,7 @@
                 ],
                 "location": "Qingdao, Shandong",
                 "selected_judge": 2,
-                "song_title": "Tian Zhen"
+                "song_title": "\u5e72\u676f\u670b\u53cb+Rap"
             },
             {
                 "age": 26,
@@ -719,7 +719,7 @@
                 ],
                 "location": "Beijing",
                 "selected_judge": 1,
-                "song_title": "Faye Wong"
+                "song_title": "\u6267\u8ff7\u4e0d\u6094"
             },
             {
                 "age": 29,
@@ -733,7 +733,7 @@
                 ],
                 "location": "Wuhan, Hunan",
                 "selected_judge": null,
-                "song_title": "Jacky Cheung"
+                "song_title": "\u543b\u522b"
             },
             {
                 "age": 25,
@@ -747,7 +747,7 @@
                 ],
                 "location": "Xuchang, Henan",
                 "selected_judge": 1,
-                "song_title": "Na Ying"
+                "song_title": "\u5f81\u670d"
             },
             {
                 "age": 24,
@@ -775,7 +775,7 @@
                 ],
                 "location": "Quanjiao, Anhui",
                 "selected_judge": 0,
-                "song_title": "Xiao Hu Dui"
+                "song_title": "\u7231"
             },
             {
                 "age": 26,
@@ -789,7 +789,7 @@
                 ],
                 "location": "Harbin, Heilongjiang",
                 "selected_judge": null,
-                "song_title": "Natasha Na"
+                "song_title": "\u767d\u5929\u4e0d\u61c2\u591c\u7684\u9ed1"
             },
             {
                 "age": 22,
@@ -803,7 +803,7 @@
                 ],
                 "location": "Anhui",
                 "selected_judge": null,
-                "song_title": "Jeff Chang"
+                "song_title": "\u8fc7\u706b"
             },
             {
                 "age": 27,
@@ -817,7 +817,7 @@
                 ],
                 "location": "Qingdao, Shandong",
                 "selected_judge": 3,
-                "song_title": "Cui Jian"
+                "song_title": "\u82b1\u623f\u59d1\u5a18"
             },
             {
                 "age": 31,
@@ -831,7 +831,7 @@
                 ],
                 "location": "Hohhot, Inner Mongolia",
                 "selected_judge": null,
-                "song_title": "Tengger"
+                "song_title": "\u5929\u5802"
             },
             {
                 "age": 20,
@@ -845,7 +845,7 @@
                 ],
                 "location": "Loudi, Hunan",
                 "selected_judge": null,
-                "song_title": "Yoga Lin"
+                "song_title": "\u773c\u8272"
             },
             {
                 "age": 29,
@@ -873,7 +873,7 @@
                 ],
                 "location": "Xinjiang",
                 "selected_judge": null,
-                "song_title": "Shin"
+                "song_title": "\u5343\u5e74\u4e4b\u604b"
             },
             {
                 "age": 18,
@@ -887,7 +887,7 @@
                 ],
                 "location": "Shanghai",
                 "selected_judge": 0,
-                "song_title": "Mavis Hee"
+                "song_title": "\u57ce\u91cc\u7684\u6708\u5149"
             },
             {
                 "age": 26,
@@ -915,7 +915,7 @@
                 ],
                 "location": "Beijing",
                 "selected_judge": 3,
-                "song_title": "A-mei"
+                "song_title": "\u542c\u6d77"
             },
             {
                 "age": 34,
@@ -943,7 +943,7 @@
                 ],
                 "location": "Tongren, Guizhou",
                 "selected_judge": 1,
-                "song_title": "Sodagreen"
+                "song_title": "\u5c0f\u60c5\u6b4c"
             },
             {
                 "age": 35,
@@ -957,7 +957,7 @@
                 ],
                 "location": "Shaoyang, Hunan",
                 "selected_judge": 3,
-                "song_title": "Grace Chang"
+                "song_title": "\u6211\u8981\u4f60\u7684\u7231"
             },
             {
                 "age": 26,
@@ -971,7 +971,7 @@
                 ],
                 "location": "Jinan, Shandong",
                 "selected_judge": 0,
-                "song_title": "Fish Leong"
+                "song_title": "\u4f1a\u547c\u5438\u7684\u75db"
             },
             {
                 "age": 41,
@@ -985,7 +985,7 @@
                 ],
                 "location": "Harbin, Heilongjiang",
                 "selected_judge": null,
-                "song_title": "A-mei"
+                "song_title": "\u522b\u5728\u4f24\u53e3\u6492\u76d0"
             },
             {
                 "age": 20,
@@ -999,7 +999,7 @@
                 ],
                 "location": "Loudi, Hunan",
                 "selected_judge": null,
-                "song_title": "Sun Nan"
+                "song_title": "\u71c3\u70e7"
             },
             {
                 "age": 26,
@@ -1013,7 +1013,7 @@
                 ],
                 "location": "Xinjiang",
                 "selected_judge": 3,
-                "song_title": "Shin"
+                "song_title": "\u5343\u5e74\u4e4b\u604b"
             },
             {
                 "age": 28,
@@ -1027,7 +1027,7 @@
                 ],
                 "location": "Beijing",
                 "selected_judge": 2,
-                "song_title": "Karen Mok"
+                "song_title": "\u5982\u679c\u6ca1\u6709\u4f60"
             },
             {
                 "age": 31,
