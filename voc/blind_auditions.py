@@ -195,6 +195,6 @@ if __name__ == "__main__":
         season_results.append(
             {"results": results, "wiki_url": season_url, "judges": judges}
         )
-    with open("../data/blind_auditions_voc.json", "w") as f:
+    with open("../data/blind_auditions.json", "w") as f:
         json.dump(season_results, f)
     pp.pprint(season_results)
