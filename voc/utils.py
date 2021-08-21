@@ -1,3 +1,4 @@
+import json
 import re
 
 
@@ -45,3 +46,8 @@ def split_english_and_chinese_name(name_raw):
     *english_name_parts, chinese_name = re.split(r"\W+", name_raw)
     english_name = " ".join(english_name_parts)
     return {"english_name": english_name, "chinese_name": chinese_name}
+
+
+def save_as_json(data, filename):
+    with open(f"../data/{filename}.json", "w") as f:
+        json.dump(data, f, indent=4, sort_keys=True)

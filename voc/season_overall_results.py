@@ -1,5 +1,3 @@
-import json
-
 import requests
 from typing import List, Tuple, Dict
 
@@ -7,7 +5,11 @@ from bs4 import BeautifulSoup
 from enum import Enum
 
 from voc.constants import pp, ALL_SEASON_URLS
-from voc.utils import get_background_color_from_style, split_english_and_chinese_name
+from voc.utils import (
+    get_background_color_from_style,
+    split_english_and_chinese_name,
+    save_as_json,
+)
 
 
 class RankCategory(int, Enum):
@@ -125,6 +127,5 @@ if __name__ == "__main__":
         season_results.append(
             {"results": contestants, "wiki_url": season_url, "judges": judges}
         )
-    with open("../data/season_overall_results.json", "w") as f:
-        json.dump(season_results, f)
+    save_as_json(season_results, "season_overall_results")
     pp.pprint(season_results)

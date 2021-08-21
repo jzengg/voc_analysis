@@ -1,4 +1,3 @@
-import json
 import requests
 import re
 from bs4 import BeautifulSoup
@@ -11,6 +10,7 @@ from voc.utils import (
     get_background_color_from_style,
     process_table_row_spans,
     split_english_and_chinese_name,
+    save_as_json,
 )
 
 INVALID_NAME_COMPONENTS = [","]
@@ -198,6 +198,6 @@ if __name__ == "__main__":
         season_results.append(
             {"results": results, "wiki_url": season_url, "judges": judges}
         )
-    with open("../data/blind_auditions.json", "w") as f:
-        json.dump(season_results, f)
+
+    save_as_json(season_results, "blind_auditions")
     pp.pprint(season_results)
