@@ -35,7 +35,12 @@ def parse_unstructured_name_cell(cell):
     else:
         english_name_raw, chinese_name_raw = english_name_raw.split("(")
     english_name = english_name_raw.split("(")[0].strip()
-    chinese_name = chinese_name_raw.replace(")", "").strip()
+    # hack for this group who's listed under a different name between the sections
+    if english_name == "Shanye":
+        english_name = "Li Haohan"
+        chinese_name = "李昊瀚"
+    else:
+        chinese_name = chinese_name_raw.replace(")", "").strip()
     age_location_raw = cell.sub
     age_location_components = [c for c in age_location_raw.stripped_strings]
     age_raw, *location_raw = age_location_components
@@ -58,11 +63,24 @@ def parse_unstructured_name_cell(cell):
 
 def parse_name_cell(cell):
     if cell.sup:
-        tag = cell
+        name_raw = next(cell.stripped_strings)
+    elif cell.a:
+        english_name_raw = next(cell.a.stripped_strings)
+        chinese_name_raw = cell.a.next_sibling.string
+        name_raw = f"{english_name_raw} {chinese_name_raw}"
     else:
-        tag = cell.a or cell
-    name_raw = next(tag.stripped_strings)
+        name_raw = next(cell.stripped_strings)
     name_data = split_english_and_chinese_name(name_raw)
+    # name is different between sections
+    # season 2
+    if name_data["english_name"] == "Zhang Mu":
+        name_data["chinese_name"] = "張目"
+    # season 2
+    if name_data["english_name"] == "Zhang Jiaming":
+        name_data["chinese_name"] = "張珈銘"
+    # season 8
+    if name_data["chinese_name"] == "贾峥":
+        name_data["chinese_name"] = "贾铮"
     return name_data
 
 

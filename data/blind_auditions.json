@@ -835,7 +835,7 @@
             },
             {
                 "age": 28,
-                "chinese_name": "李昊瀚[山野]",
+                "chinese_name": "李昊瀚",
                 "coach_choices": [
                     {
                         "coach_name": "Yang Kun",
@@ -854,7 +854,7 @@
                         "coach_turned": false
                     }
                 ],
-                "english_name": "Shanye",
+                "english_name": "Li Haohan",
                 "location": "Beijing",
                 "selected_coach": null,
                 "song_title": "如果没有你"
@@ -1875,7 +1875,7 @@
             },
             {
                 "age": 28,
-                "chinese_name": "李昊瀚[山野]",
+                "chinese_name": "李昊瀚",
                 "coach_choices": [
                     {
                         "coach_name": "Yang Kun",
@@ -1894,7 +1894,7 @@
                         "coach_turned": false
                     }
                 ],
-                "english_name": "Shanye",
+                "english_name": "Li Haohan",
                 "location": "Beijing",
                 "selected_coach": "Liu Huan",
                 "song_title": "如果没有你"
@@ -3109,7 +3109,7 @@
             },
             {
                 "age": 21,
-                "chinese_name": "张珈铭",
+                "chinese_name": "張珈銘",
                 "coach_choices": [
                     {
                         "coach_name": "Wang Feng",
@@ -3421,7 +3421,7 @@
             },
             {
                 "age": 25,
-                "chinese_name": "张目",
+                "chinese_name": "張目",
                 "coach_choices": [
                     {
                         "coach_name": "Wang Feng",
@@ -3693,7 +3693,7 @@
             },
             {
                 "age": 21,
-                "chinese_name": "",
+                "chinese_name": "陈永馨",
                 "coach_choices": [
                     {
                         "coach_name": "Chyi Chin",
@@ -3875,7 +3875,7 @@
             },
             {
                 "age": 21,
-                "chinese_name": "",
+                "chinese_name": "周深",
                 "coach_choices": [
                     {
                         "coach_name": "Chyi Chin",
@@ -3953,7 +3953,7 @@
             },
             {
                 "age": 25,
-                "chinese_name": "",
+                "chinese_name": "张碧晨",
                 "coach_choices": [
                     {
                         "coach_name": "Chyi Chin",
@@ -4291,7 +4291,7 @@
             },
             {
                 "age": 32,
-                "chinese_name": "",
+                "chinese_name": "帕尔哈提",
                 "coach_choices": [
                     {
                         "coach_name": "Chyi Chin",
@@ -6123,7 +6123,7 @@
             },
             {
                 "age": 34,
-                "chinese_name": "",
+                "chinese_name": "张磊",
                 "coach_choices": [
                     {
                         "coach_name": "Harlem Yu",
@@ -6305,7 +6305,7 @@
             },
             {
                 "age": 16,
-                "chinese_name": "",
+                "chinese_name": "黄霄雲",
                 "coach_choices": [
                     {
                         "coach_name": "Harlem Yu",
@@ -6565,7 +6565,7 @@
             },
             {
                 "age": 19,
-                "chinese_name": "",
+                "chinese_name": "关诗敏",
                 "coach_choices": [
                     {
                         "coach_name": "Harlem Yu",
@@ -6773,7 +6773,7 @@
             },
             {
                 "age": 24,
-                "chinese_name": "",
+                "chinese_name": "曹景豪",
                 "coach_choices": [
                     {
                         "coach_name": "Harlem Yu",
@@ -11293,7 +11293,7 @@
             },
             {
                 "age": 21,
-                "chinese_name": "贾峥",
+                "chinese_name": "贾铮",
                 "coach_choices": [
                     {
                         "coach_name": "Li Ronghao",
