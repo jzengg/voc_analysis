@@ -1806,10 +1806,10 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
-            "english_name:Melody|chinese_name:Tan|season_num:3": {
-                "chinese_name": "Tan",
+            "english_name:Melody Tan|chinese_name:陈永馨|season_num:3": {
+                "chinese_name": "陈永馨",
                 "coach_name": "Yang Kun",
-                "english_name": "Melody",
+                "english_name": "Melody Tan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
@@ -1827,10 +1827,10 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
-            "english_name:Perhat|chinese_name:Khaliq|season_num:3": {
-                "chinese_name": "Khaliq",
+            "english_name:Perhat Khaliq|chinese_name:帕尔哈提|season_num:3": {
+                "chinese_name": "帕尔哈提",
                 "coach_name": "Wang Feng",
-                "english_name": "Perhat",
+                "english_name": "Perhat Khaliq",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
@@ -1841,10 +1841,10 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
-            "english_name:Robynn|chinese_name:Kendy|season_num:3": {
-                "chinese_name": "Kendy",
+            "english_name:Robynn Kendy|chinese_name:|season_num:3": {
+                "chinese_name": "",
                 "coach_name": "Yang Kun",
-                "english_name": "Robynn",
+                "english_name": "Robynn Kendy",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
@@ -1981,6 +1981,13 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
+            "english_name:Zhang Bichen|chinese_name:张碧晨|season_num:3": {
+                "chinese_name": "张碧晨",
+                "coach_name": "Na Ying",
+                "english_name": "Zhang Bichen",
+                "rank_category_name": "WINNER",
+                "rank_category_value": 0
+            },
             "english_name:Zhang Dandan|chinese_name:张丹丹|season_num:3": {
                 "chinese_name": "张丹丹",
                 "coach_name": "Wang Feng",
@@ -2016,13 +2023,6 @@
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
-            "english_name:Zhang|chinese_name:Bichen|season_num:3": {
-                "chinese_name": "Bichen",
-                "coach_name": "Na Ying",
-                "english_name": "Zhang",
-                "rank_category_name": "WINNER",
-                "rank_category_value": 0
-            },
             "english_name:Zhao Ke|chinese_name:赵钶|season_num:3": {
                 "chinese_name": "赵钶",
                 "coach_name": "Yang Kun",
@@ -2044,10 +2044,10 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
-            "english_name:Zhou|chinese_name:Shen|season_num:3": {
-                "chinese_name": "Shen",
+            "english_name:Zhou Shen|chinese_name:周深|season_num:3": {
+                "chinese_name": "周深",
                 "coach_name": "Na Ying",
-                "english_name": "Zhou",
+                "english_name": "Zhou Shen",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
@@ -2166,9 +2166,9 @@
                 "rank_category_value": 10
             },
             {
-                "chinese_name": "Khaliq",
+                "chinese_name": "帕尔哈提",
                 "coach_name": "Wang Feng",
-                "english_name": "Perhat",
+                "english_name": "Perhat Khaliq",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
@@ -2278,9 +2278,9 @@
                 "rank_category_value": 10
             },
             {
-                "chinese_name": "Bichen",
+                "chinese_name": "张碧晨",
                 "coach_name": "Na Ying",
-                "english_name": "Zhang",
+                "english_name": "Zhang Bichen",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
@@ -2383,9 +2383,9 @@
                 "rank_category_value": 10
             },
             {
-                "chinese_name": "Shen",
+                "chinese_name": "周深",
                 "coach_name": "Na Ying",
-                "english_name": "Zhou",
+                "english_name": "Zhou Shen",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2397,9 +2397,9 @@
                 "rank_category_value": 2
             },
             {
-                "chinese_name": "Tan",
+                "chinese_name": "陈永馨",
                 "coach_name": "Yang Kun",
-                "english_name": "Melody",
+                "english_name": "Melody Tan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
@@ -2425,9 +2425,9 @@
                 "rank_category_value": 9
             },
             {
-                "chinese_name": "Kendy",
+                "chinese_name": "",
                 "coach_name": "Yang Kun",
-                "english_name": "Robynn",
+                "english_name": "Robynn Kendy",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
@@ -2541,10 +2541,10 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
-            "english_name:Gin|chinese_name:Lee|season_num:4": {
-                "chinese_name": "Lee",
+            "english_name:Gin Lee|chinese_name:李幸倪|season_num:4": {
+                "chinese_name": "李幸倪",
                 "coach_name": "Jay Chou",
-                "english_name": "Gin",
+                "english_name": "Gin Lee",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
@@ -2562,19 +2562,19 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
+            "english_name:Huang Xiaoyun|chinese_name:黄霄雲|season_num:4": {
+                "chinese_name": "黄霄雲",
+                "coach_name": "Wang Feng",
+                "english_name": "Huang Xiaoyun",
+                "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
+                "rank_category_value": 7
+            },
             "english_name:Huang Yong|chinese_name:黄勇|season_num:4": {
                 "chinese_name": "黄勇",
                 "coach_name": "Wang Feng",
                 "english_name": "Huang Yong",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
-            },
-            "english_name:Huang|chinese_name:Xiaoyun|season_num:4": {
-                "chinese_name": "Xiaoyun",
-                "coach_name": "Wang Feng",
-                "english_name": "Huang",
-                "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
-                "rank_category_value": 7
             },
             "english_name:Ika Zhao|chinese_name:赵大格|season_num:4": {
                 "chinese_name": "赵大格",
@@ -2583,10 +2583,17 @@
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
-            "english_name:Jaffri|chinese_name:Cao|season_num:4": {
-                "chinese_name": "Cao",
+            "english_name:J hannes Koo|chinese_name:古振邦|season_num:4": {
+                "chinese_name": "古振邦",
                 "coach_name": "Harlem Yu",
-                "english_name": "Jaffri",
+                "english_name": "J hannes Koo",
+                "rank_category_name": "ELIMINATED_IN_BATTLES",
+                "rank_category_value": 10
+            },
+            "english_name:Jaffri Cao|chinese_name:曹景豪|season_num:4": {
+                "chinese_name": "曹景豪",
+                "coach_name": "Harlem Yu",
+                "english_name": "Jaffri Cao",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2601,13 +2608,6 @@
                 "chinese_name": "江源东",
                 "coach_name": "Jay Chou",
                 "english_name": "Jiang Yuandong",
-                "rank_category_name": "ELIMINATED_IN_BATTLES",
-                "rank_category_value": 10
-            },
-            "english_name:Jóhannes Koo|chinese_name:古振邦|season_num:4": {
-                "chinese_name": "古振邦",
-                "coach_name": "Harlem Yu",
-                "english_name": "Jóhannes Koo",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2702,10 +2702,10 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
-            "english_name:Sharon|chinese_name:Kwan|season_num:4": {
-                "chinese_name": "Kwan",
+            "english_name:Sharon Kwan|chinese_name:关诗敏|season_num:4": {
+                "chinese_name": "关诗敏",
                 "coach_name": "Jay Chou",
-                "english_name": "Sharon",
+                "english_name": "Sharon Kwan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
@@ -2751,10 +2751,10 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
-            "english_name:Usay Kawlu 舞思爱|chinese_name:羔露|season_num:4": {
-                "chinese_name": "羔露",
+            "english_name:Usay Kawlu|chinese_name:舞思爱羔露|season_num:4": {
+                "chinese_name": "舞思爱羔露",
                 "coach_name": "Harlem Yu",
-                "english_name": "Usay Kawlu 舞思爱",
+                "english_name": "Usay Kawlu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2786,10 +2786,10 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
-            "english_name:Xiu er|chinese_name:修儿|season_num:4": {
+            "english_name:Xiu'er|chinese_name:修儿|season_num:4": {
                 "chinese_name": "修儿",
                 "coach_name": "Wang Feng",
-                "english_name": "Xiu er",
+                "english_name": "Xiu'er",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2814,6 +2814,13 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
+            "english_name:Zhang Lei|chinese_name:张磊|season_num:4": {
+                "chinese_name": "张磊",
+                "coach_name": "Na Ying",
+                "english_name": "Zhang Lei",
+                "rank_category_name": "WINNER",
+                "rank_category_value": 0
+            },
             "english_name:Zhang Nan|chinese_name:张楠|season_num:4": {
                 "chinese_name": "张楠",
                 "coach_name": "Na Ying",
@@ -2827,13 +2834,6 @@
                 "english_name": "Zhang Xinxin",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
-            },
-            "english_name:Zhang|chinese_name:Lei|season_num:4": {
-                "chinese_name": "Lei",
-                "coach_name": "Na Ying",
-                "english_name": "Zhang",
-                "rank_category_name": "WINNER",
-                "rank_category_value": 0
             },
             "english_name:Zhou Xiaoxiao|chinese_name:周晓晓|season_num:4": {
                 "chinese_name": "周晓晓",
@@ -2894,16 +2894,16 @@
                 "rank_category_value": 9
             },
             {
-                "chinese_name": "Cao",
+                "chinese_name": "曹景豪",
                 "coach_name": "Harlem Yu",
-                "english_name": "Jaffri",
+                "english_name": "Jaffri Cao",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "古振邦",
                 "coach_name": "Harlem Yu",
-                "english_name": "Jóhannes Koo",
+                "english_name": "J hannes Koo",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2922,9 +2922,9 @@
                 "rank_category_value": 10
             },
             {
-                "chinese_name": "羔露",
+                "chinese_name": "舞思爱羔露",
                 "coach_name": "Harlem Yu",
-                "english_name": "Usay Kawlu 舞思爱",
+                "english_name": "Usay Kawlu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -2950,9 +2950,9 @@
                 "rank_category_value": 6
             },
             {
-                "chinese_name": "Xiaoyun",
+                "chinese_name": "黄霄雲",
                 "coach_name": "Wang Feng",
-                "english_name": "Huang",
+                "english_name": "Huang Xiaoyun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
@@ -3008,7 +3008,7 @@
             {
                 "chinese_name": "修儿",
                 "coach_name": "Wang Feng",
-                "english_name": "Xiu er",
+                "english_name": "Xiu'er",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
@@ -3020,9 +3020,9 @@
                 "rank_category_value": 10
             },
             {
-                "chinese_name": "Lei",
+                "chinese_name": "张磊",
                 "coach_name": "Na Ying",
-                "english_name": "Zhang",
+                "english_name": "Zhang Lei",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
@@ -3118,16 +3118,16 @@
                 "rank_category_value": 4
             },
             {
-                "chinese_name": "Lee",
+                "chinese_name": "李幸倪",
                 "coach_name": "Jay Chou",
-                "english_name": "Gin",
+                "english_name": "Gin Lee",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
-                "chinese_name": "Kwan",
+                "chinese_name": "关诗敏",
                 "coach_name": "Jay Chou",
-                "english_name": "Sharon",
+                "english_name": "Sharon Kwan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
@@ -3318,10 +3318,10 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
-            "english_name:Lil Akin 阿克江|chinese_name:阿依丁|season_num:5": {
-                "chinese_name": "阿依丁",
+            "english_name:Lil'Akin|chinese_name:阿克江阿依丁|season_num:5": {
+                "chinese_name": "阿克江阿依丁",
                 "coach_name": "Harlem Yu",
-                "english_name": "Lil Akin 阿克江",
+                "english_name": "Lil'Akin",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
@@ -3853,9 +3853,9 @@
                 "rank_category_value": 9
             },
             {
-                "chinese_name": "阿依丁",
+                "chinese_name": "阿克江阿依丁",
                 "coach_name": "Harlem Yu",
-                "english_name": "Lil Akin 阿克江",
+                "english_name": "Lil'Akin",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
@@ -3913,10 +3913,10 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
-            "english_name:Curley G 希林娜依|chinese_name:高|season_num:6": {
-                "chinese_name": "高",
+            "english_name:Curley G|chinese_name:希林娜依高|season_num:6": {
+                "chinese_name": "希林娜依高",
                 "coach_name": "Na Ying",
-                "english_name": "Curley G 希林娜依",
+                "english_name": "Curley G",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
@@ -4280,9 +4280,9 @@
                 "rank_category_value": 1
             },
             {
-                "chinese_name": "高",
+                "chinese_name": "希林娜依高",
                 "coach_name": "Na Ying",
-                "english_name": "Curley G 希林娜依",
+                "english_name": "Curley G",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
@@ -4564,10 +4564,10 @@
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
-            "english_name:Evis|chinese_name:Wy|season_num:7": {
-                "chinese_name": "Wy",
+            "english_name:Evis Wy|chinese_name:|season_num:7": {
+                "chinese_name": "",
                 "coach_name": "Jay Chou",
-                "english_name": "Evis",
+                "english_name": "Evis Wy",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
@@ -4795,10 +4795,10 @@
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
-            "english_name:Zhang Shen er|chinese_name:张神儿|season_num:7": {
+            "english_name:Zhang Shen'er|chinese_name:张神儿|season_num:7": {
                 "chinese_name": "张神儿",
                 "coach_name": "Jay Chou",
-                "english_name": "Zhang Shen er",
+                "english_name": "Zhang Shen'er",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             }
@@ -4905,14 +4905,14 @@
             {
                 "chinese_name": "张神儿",
                 "coach_name": "Jay Chou",
-                "english_name": "Zhang Shen er",
+                "english_name": "Zhang Shen'er",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
-                "chinese_name": "Wy",
+                "chinese_name": "",
                 "coach_name": "Jay Chou",
-                "english_name": "Evis",
+                "english_name": "Evis Wy",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
@@ -5128,6 +5128,13 @@
                 "chinese_name": "蔡咏琪",
                 "coach_name": "Na Ying",
                 "english_name": "Annabella Chua",
+                "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
+                "rank_category_value": 7
+            },
+            "english_name:CPU|chinese_name:|season_num:8": {
+                "chinese_name": "",
+                "coach_name": "Wang Leehom",
+                "english_name": "CPU",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
@@ -5431,13 +5438,6 @@
                 "english_name": "Zhang Tianyu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
-            },
-            "english_name:|chinese_name:CPU|season_num:8": {
-                "chinese_name": "CPU",
-                "coach_name": "Wang Leehom",
-                "english_name": "",
-                "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
-                "rank_category_value": 7
             }
         },
         "contestant_overall_results": [
@@ -5687,9 +5687,9 @@
                 "rank_category_value": 6
             },
             {
-                "chinese_name": "CPU",
+                "chinese_name": "",
                 "coach_name": "Wang Leehom",
-                "english_name": "",
+                "english_name": "CPU",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },

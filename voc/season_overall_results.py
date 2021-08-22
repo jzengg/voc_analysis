@@ -105,7 +105,10 @@ def get_season_results(season_soup, season_num) -> Tuple[List[Dict], List[str], 
                 # don't double count contestants that were stolen
                 if rank == RankCategory.STOLEN_BY_ANOTHER_COACH:
                     continue
-                name_data = split_english_and_chinese_name(result_raw["content"])
+                if cell.a:
+                    name_data = split_english_and_chinese_name(" ".join([s for s in cell.stripped_strings]))
+                else:
+                    name_data = split_english_and_chinese_name(result_raw["content"])
                 result = {
                     "rank_category_value": rank,
                     "rank_category_name": RankCategory(rank).name,
