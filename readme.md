@@ -1,14 +1,17 @@
 # Summary
-Data about the contestants and judges from each season of Voice of China and Sing China collected from their wiki pages.
+Data about the contestants and coaches from each season of Voice of China and Sing China collected from their wiki pages.
 
 ## Data
-We divide the data into several sets
-- season_overall_results
-    - each of the contestants that were selected by a judge and how far they got in the season (won, eliminated in playoffs)
-    - judge "slot" and name, slot is used to correlate which judge turned for which contestant in blind auditions
-- blind_auditions
-    - judges that turned for each contestant and which judge a contestant ultimately joined
-- playoffs
+### season_overall_results
+each of the contestants that were selected by a coach and how far they got in the season (won, eliminated in playoffs)
+### blind_auditions
+coaches that turned for each contestant and which coach a contestant ultimately joined
+###  coaches
+listing of all the coaches that have been on the show and which coaches were on which seasons
+### all_data
+aggregates the coach, season overall results and blind auditions into one data set
+### wiki_dump
+dump of the html for all the wiki pages that can be used to do processing offline
 
 ## Wiki
 Example wiki pages 
