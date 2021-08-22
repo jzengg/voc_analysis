@@ -1,6 +1,11 @@
 import json
 import re
 
+import requests
+from bs4 import BeautifulSoup
+
+from voc.constants import ALL_SEASON_URLS
+
 
 def get_background_color_from_style(styles: str) -> str:
     if not styles:
@@ -51,3 +56,13 @@ def split_english_and_chinese_name(name_raw):
 def save_as_json(data, filename):
     with open(f"../data/{filename}.json", "w", encoding="utf8") as f:
         json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
+
+
+def gen_all_season_num_and_soup():
+    season_urls = [*ALL_SEASON_URLS]
+    for season_index, season_url in enumerate(season_urls):
+        season_response = requests.get(
+            url=season_url,
+        )
+        season_soup = BeautifulSoup(season_response.content, "html.parser")
+        yield season_index + 1, season_soup

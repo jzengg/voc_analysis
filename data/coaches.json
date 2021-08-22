@@ -14,7 +14,7 @@
         "Wang Leehom",
         "Yang Kun"
     ],
-    "coaches_to_season": {
+    "season_to_coaches": {
         "1": [
             "Yang Kun",
             "Na Ying",
