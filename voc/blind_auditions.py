@@ -9,7 +9,7 @@ from voc.utils import (
     process_table_row_spans,
     split_english_and_chinese_name,
     save_as_json,
-    gen_all_season_num_and_soup,
+    gen_all_season_data,
 )
 
 INVALID_NAME_COMPONENTS = [","]
@@ -214,7 +214,7 @@ def get_season_results(season_soup, season_coaches):
 def get_blind_auditions_data():
     season_results = []
     coach_data = get_coach_data()
-    for season_data in gen_all_season_num_and_soup():
+    for season_data in gen_all_season_data():
         season_soup = season_data["season_soup"]
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]

@@ -58,7 +58,13 @@ def save_as_json(data, filename):
         json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
-def gen_all_season_num_and_soup():
+def gen_all_season_data():
+    # func = gen_all_season_data_live
+    func = gen_all_season_data_offline
+    return func()
+
+
+def gen_all_season_data_live():
     season_urls = [*ALL_SEASON_URLS]
     for season_index, season_url in enumerate(season_urls):
         season_response = requests.get(
@@ -70,3 +76,18 @@ def gen_all_season_num_and_soup():
             "season_soup": season_soup,
             "season_url": season_url,
         }
+
+
+def gen_all_season_data_offline():
+    with open("../data/wiki_dump.json") as f:
+        wiki_dump = json.load(f)
+        for season_data in wiki_dump:
+            season_content = season_data["season_soup"]
+            season_soup = BeautifulSoup(season_content, "html.parser")
+            season_num = season_data["season_num"]
+            season_url = season_data["season_url"]
+            yield {
+                "season_num": season_num,
+                "season_soup": season_soup,
+                "season_url": season_url,
+            }

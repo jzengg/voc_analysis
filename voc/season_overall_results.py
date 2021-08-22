@@ -7,7 +7,7 @@ from voc.utils import (
     get_background_color_from_style,
     split_english_and_chinese_name,
     save_as_json,
-    gen_all_season_num_and_soup,
+    gen_all_season_data,
 )
 
 
@@ -116,7 +116,7 @@ def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
 
 def get_overall_results_data():
     season_results = []
-    for season_data in gen_all_season_num_and_soup():
+    for season_data in gen_all_season_data():
         season_soup = season_data["season_soup"]
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]

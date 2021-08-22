@@ -1,14 +1,14 @@
 from voc.constants import pp
 from voc.utils import (
     save_as_json,
-    gen_all_season_num_and_soup,
+    gen_all_season_data,
 )
 
 
 def get_coach_data():
     all_coaches = set()
     season_num_to_coaches = {}
-    for season_data in gen_all_season_num_and_soup():
+    for season_data in gen_all_season_data():
         season_soup = season_data["season_soup"]
         season_num = season_data["season_num"]
         results_summary_table = season_soup.find_all("table", class_="wikitable")[0]

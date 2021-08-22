@@ -18,7 +18,7 @@ def dump_all_season_html():
             "season_url": season_url,
         }
         all_data.append(season_data)
-    print("hello")
+    return all_data
 
 
 if __name__ == "__main__":
