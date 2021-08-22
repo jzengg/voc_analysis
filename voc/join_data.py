@@ -22,4 +22,4 @@ def join_all_data():
 if __name__ == "__main__":
     all_data = join_all_data()
     pp.pprint(all_data)
-    save_as_json(all_data, "all_data.json")
+    save_as_json(all_data, "all_data")
