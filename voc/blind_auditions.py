@@ -218,7 +218,7 @@ def get_blind_auditions_data():
         season_soup = season_data["season_soup"]
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]
-        season_coaches = coach_data["season_to_coaches"][season_num]
+        season_coaches = coach_data["season_num_to_coaches"][season_num]
         results = get_season_results(season_soup, season_coaches)
         season_results.append(
             {
