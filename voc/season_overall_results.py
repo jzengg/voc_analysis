@@ -25,7 +25,7 @@ class RankCategory(int, Enum):
     ELIMINATED_IN_KNOCKOUTS_ROUND_1 = 9
     ELIMINATED_IN_BATTLES = 10
     NOT_CHOSEN = 11
-    STOLEN_BY_ANOTHER_JUDGE = 12
+    STOLEN_BY_ANOTHER_COACH = 12
     WITHDREW = 12
 
 
@@ -45,7 +45,7 @@ COLOR_TO_RANK = {
     "#a8e4a0": RankCategory.ELIMINATED_IN_KNOCKOUTS_ROUND_1,
     # this color is also reused for eliminated during blind auditions?
     "#fdfd96": RankCategory.ELIMINATED_IN_BATTLES,
-    "#fffdd0": RankCategory.STOLEN_BY_ANOTHER_JUDGE,
+    "#fffdd0": RankCategory.STOLEN_BY_ANOTHER_COACH,
     "silver": RankCategory.WITHDREW,
 }
 
@@ -61,28 +61,28 @@ def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
     rows = results_summary_table.find_all("tr")
     # skip table header
     rows = rows[1:]
-    # judges can have differing number of contestant rows so inspect the number of rows they take up first
-    judge_row_spans = [
+    # coaches can have differing number of contestant rows so inspect the number of rows they take up first
+    coach_row_spans = [
         int(tag.attrs.get("rowspan"))
         for tag in results_summary_table.find_all("th")
         if tag.attrs.get("rowspan")
     ]
-    judge_chunks = []
-    for chunk_size in judge_row_spans:
-        judge_chunks.append(rows[:chunk_size])
+    coach_chunks = []
+    for chunk_size in coach_row_spans:
+        coach_chunks.append(rows[:chunk_size])
         rows = rows[chunk_size:]
 
-    judge_results = []
-    judge_names = []
+    coach_results = []
+    coach_names = []
 
-    for chunk in judge_chunks:
-        judge_cell, *contestant_rows = chunk
-        # not a real judge row, may be a footnote
-        if not judge_cell.a:
+    for chunk in coach_chunks:
+        coach_cell, *contestant_rows = chunk
+        # not a real coach row, may be a footnote
+        if not coach_cell.a:
             continue
-        judge_name = judge_cell.a.string.strip()
-        if judge_name not in judge_names:
-            judge_names.append(judge_name)
+        coach_name = coach_cell.a.string.strip()
+        if coach_name not in coach_names:
+            coach_names.append(coach_name)
         for row in contestant_rows:
             row_style = row.attrs.get("style", "")
             for cell in row.find_all("td"):
@@ -102,30 +102,47 @@ def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
                     raise e
                 rank = get_rank_from_style(result_raw["style"])
                 # don't double count contestants that were stolen
-                if rank == RankCategory.STOLEN_BY_ANOTHER_JUDGE:
+                if rank == RankCategory.STOLEN_BY_ANOTHER_COACH:
                     continue
                 name_data = split_english_and_chinese_name(result_raw["content"])
                 result = {
                     "rank_category_value": rank,
                     "rank_category_name": RankCategory(rank).name,
                     **name_data,
-                    "judge_name": judge_name,
+                    "coach_name": coach_name,
                 }
-                judge_results.append(result)
-    return judge_results, judge_names
+                coach_results.append(result)
+    return coach_results, coach_names
 
 
 if __name__ == "__main__":
     season_urls = [*ALL_SEASON_URLS]
     season_results = []
-    for season_url in season_urls:
+    all_coaches = set()
+    coaches_to_season = {}
+    for season_index, season_url in enumerate(season_urls):
         season_response = requests.get(
             url=season_url,
         )
         soup = BeautifulSoup(season_response.content, "html.parser")
-        contestants, judges = get_season_results(soup)
+        contestants, coaches = get_season_results(soup)
+        human_season = season_index + 1
+        all_coaches |= set(coaches)
+        coaches_to_season[human_season] = coaches
         season_results.append(
-            {"results": contestants, "wiki_url": season_url, "judges": judges}
+            {
+                "contestant_overall_results": contestants,
+                "wiki_url": season_url,
+                "season": human_season,
+                "coaches": coaches,
+            }
         )
-    save_as_json(season_results, "season_overall_results")
+    sorted_coaches = sorted(list(all_coaches))
+
+    pp.pprint(all_coaches)
+    pp.pprint(coaches_to_season)
     pp.pprint(season_results)
+
+    coach_data = {"all_coaches": sorted_coaches, "coaches_to_season": coaches_to_season}
+    save_as_json(coach_data, "coaches")
+    save_as_json(season_results, "season_overall_results")

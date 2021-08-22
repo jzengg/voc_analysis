@@ -1,0 +1,67 @@
+{
+    "all_coaches": [
+        "A-mei",
+        "Chyi Chin",
+        "Eason Chan",
+        "Harlem Yu",
+        "Jay Chou",
+        "Li Jian",
+        "Li Ronghao",
+        "Liu Huan",
+        "Na Ying",
+        "Nicholas Tse",
+        "Wang Feng",
+        "Wang Leehom",
+        "Yang Kun"
+    ],
+    "coaches_to_season": {
+        "1": [
+            "Yang Kun",
+            "Na Ying",
+            "Liu Huan",
+            "Harlem Yu"
+        ],
+        "2": [
+            "Wang Feng",
+            "A-mei",
+            "Na Ying",
+            "Harlem Yu"
+        ],
+        "3": [
+            "Chyi Chin",
+            "Wang Feng",
+            "Na Ying",
+            "Yang Kun"
+        ],
+        "4": [
+            "Harlem Yu",
+            "Wang Feng",
+            "Na Ying",
+            "Jay Chou"
+        ],
+        "5": [
+            "Jay Chou",
+            "Wang Feng",
+            "Na Ying",
+            "Harlem Yu"
+        ],
+        "6": [
+            "Eason Chan",
+            "Na Ying",
+            "Liu Huan",
+            "Jay Chou"
+        ],
+        "7": [
+            "Nicholas Tse",
+            "Jay Chou",
+            "Harlem Yu",
+            "Li Jian"
+        ],
+        "8": [
+            "Li Ronghao",
+            "Harlem Yu",
+            "Na Ying",
+            "Wang Leehom"
+        ]
+    }
+}

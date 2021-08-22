@@ -1,2918 +1,2926 @@
 [
     {
-        "judges": [
+        "coaches": [
             "Yang Kun",
             "Na Ying",
             "Liu Huan",
             "Harlem Yu"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "金志文",
+                "coach_name": "Yang Kun",
                 "english_name": "Kim Ji mun",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "关喆",
+                "coach_name": "Yang Kun",
                 "english_name": "Guan Zhe",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "平安",
+                "coach_name": "Yang Kun",
                 "english_name": "Ping An",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "丁丁",
+                "coach_name": "Yang Kun",
                 "english_name": "Ding Ding",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "丁少华",
+                "coach_name": "Yang Kun",
                 "english_name": "Ding Shaohua",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "伍佳丽",
+                "coach_name": "Yang Kun",
                 "english_name": "Wu Jiali",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "邹宏宇",
+                "coach_name": "Yang Kun",
                 "english_name": "Zou Hongyu",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "曹寅",
+                "coach_name": "Yang Kun",
                 "english_name": "Cao Yin",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "黄一",
+                "coach_name": "Yang Kun",
                 "english_name": "Huang Yi",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "尼克",
+                "coach_name": "Yang Kun",
                 "english_name": "Ni Ke",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "倪雅丰",
+                "coach_name": "Yang Kun",
                 "english_name": "Ni Yafeng",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "汪洋",
+                "coach_name": "Yang Kun",
                 "english_name": "Wang Yang",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张玮琪",
+                "coach_name": "Yang Kun",
                 "english_name": "Zhang Weiqi",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "周礼虎",
+                "coach_name": "Yang Kun",
                 "english_name": "Zhou Lihu",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "梁博",
+                "coach_name": "Na Ying",
                 "english_name": "Bruce Liang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "张玮",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Wei",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "多亮",
+                "coach_name": "Na Ying",
                 "english_name": "Duo Liang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "张赫宣",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Hexuan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "张玉霞",
+                "coach_name": "Na Ying",
                 "english_name": "Chang Yu hsia",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "侯祖辛",
+                "coach_name": "Na Ying",
                 "english_name": "Hou Zuxin",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "汪妤凌",
+                "coach_name": "Na Ying",
                 "english_name": "Wang Yuling",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "歌浴森",
+                "coach_name": "Na Ying",
                 "english_name": "Ge Yusen",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "黄鹤",
+                "coach_name": "Na Ying",
                 "english_name": "Huang He",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "黄勇",
+                "coach_name": "Na Ying",
                 "english_name": "Huang Yong",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李敏",
+                "coach_name": "Na Ying",
                 "english_name": "Li Min",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王琪玮",
+                "coach_name": "Na Ying",
                 "english_name": "Wang Qiwei",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "赵露",
+                "coach_name": "Na Ying",
                 "english_name": "Zhao Lu",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "卓义峰",
+                "coach_name": "Na Ying",
                 "english_name": "Zhuo Yifeng",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "吉克隽逸",
+                "coach_name": "Liu Huan",
                 "english_name": "Jike Junyi",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "权振东",
+                "coach_name": "Liu Huan",
                 "english_name": "Quan Zhendong",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "袁娅维",
+                "coach_name": "Liu Huan",
                 "english_name": "Tia Ray",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "徐海星",
+                "coach_name": "Liu Huan",
                 "english_name": "Xu Haixing",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "李代沫",
+                "coach_name": "Liu Huan",
                 "english_name": "Demon Lee",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘悦",
+                "coach_name": "Liu Huan",
                 "english_name": "Liu Yue",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王乃恩",
+                "coach_name": "Liu Huan",
                 "english_name": "Wang Naien",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "陈斌",
+                "coach_name": "Liu Huan",
                 "english_name": "Chen Bin",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "佳宁组合",
+                "coach_name": "Liu Huan",
                 "english_name": "Jia Ning Group",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李行亮",
+                "coach_name": "Liu Huan",
                 "english_name": "Li Hangliang",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李昊瀚",
+                "coach_name": "Liu Huan",
                 "english_name": "Li Haohan",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘昊霖",
+                "coach_name": "Liu Huan",
                 "english_name": "Liu Haolin",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘振宇",
+                "coach_name": "Liu Huan",
                 "english_name": "Liu Zhenyu",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "郑虹",
+                "coach_name": "Liu Huan",
                 "english_name": "Zheng Hong",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "吴莫愁",
+                "coach_name": "Harlem Yu",
                 "english_name": "Momo Wu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "王韵壹",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Yunyi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "金池",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ada Jin",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "大山",
+                "coach_name": "Harlem Yu",
                 "english_name": "Da Shan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "褚乔",
+                "coach_name": "Harlem Yu",
                 "english_name": "Chu Qiao",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "李维真",
+                "coach_name": "Harlem Yu",
                 "english_name": "Li Weizhen",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王克",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Ke",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "阿蜜丝女孩",
+                "coach_name": "Harlem Yu",
                 "english_name": "Amis Girls",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈俊彤",
+                "coach_name": "Harlem Yu",
                 "english_name": "Chen Juntong",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "葛林",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ge Lin",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陶虹旭",
+                "coach_name": "Harlem Yu",
                 "english_name": "Tao Hongxu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "魏语诺",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wei Yunuo",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "谢丹",
+                "coach_name": "Harlem Yu",
                 "english_name": "Xie Dan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "赵可",
+                "coach_name": "Harlem Yu",
                 "english_name": "Zhao Ke",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 1,
         "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)"
     },
     {
-        "judges": [
+        "coaches": [
             "Wang Feng",
             "A-mei",
             "Na Ying",
             "Harlem Yu"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "张恒远",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Hengyuan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "孟楠",
+                "coach_name": "Wang Feng",
                 "english_name": "Meng Nan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "毕夏",
+                "coach_name": "Wang Feng",
                 "english_name": "Bi Xia",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "单冲峰",
+                "coach_name": "Wang Feng",
                 "english_name": "Shan Chongfeng",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "田丹",
+                "coach_name": "Wang Feng",
                 "english_name": "Tian Dan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "戴荃",
+                "coach_name": "Wang Feng",
                 "english_name": "Dai Quan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张欣奕",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Xinyi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘彩星",
+                "coach_name": "Wang Feng",
                 "english_name": "Liu Caixing",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张忆亚",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Yiya",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "桂雨濛",
+                "coach_name": "Wang Feng",
                 "english_name": "Gui Yumeng",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "常颖",
+                "coach_name": "Wang Feng",
                 "english_name": "Chang Ying",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "高扬",
+                "coach_name": "Wang Feng",
                 "english_name": "Gao Yang",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "钟伟强",
+                "coach_name": "Wang Feng",
                 "english_name": "Simon Chung",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李琦",
+                "coach_name": "A-mei",
                 "english_name": "Li Qi",
-                "judge_name": "A-mei",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "塔斯肯",
+                "coach_name": "A-mei",
                 "english_name": "Taskyn",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "刘雅婷",
+                "coach_name": "A-mei",
                 "english_name": "Liu Yating",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "王拓",
+                "coach_name": "A-mei",
                 "english_name": "Wang Tuo",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "阚立文",
+                "coach_name": "A-mei",
                 "english_name": "Kan Liwen",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "林育群",
+                "coach_name": "A-mei",
                 "english_name": "Lin Yu chun",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "梁君诺",
+                "coach_name": "A-mei",
                 "english_name": "Liang Junnuo",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "李秋泽",
+                "coach_name": "A-mei",
                 "english_name": "Li Qiuze",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张新",
+                "coach_name": "A-mei",
                 "english_name": "Zhang Xin",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "叶玮庭",
+                "coach_name": "A-mei",
                 "english_name": "Uni Yeh",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "姚政",
+                "coach_name": "A-mei",
                 "english_name": "Yao Zheng",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "林芯仪",
+                "coach_name": "A-mei",
                 "english_name": "Shennio Lin",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘籽辰",
+                "coach_name": "A-mei",
                 "english_name": "Liu Zichen",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "孟鹏",
+                "coach_name": "A-mei",
                 "english_name": "Meng Peng",
-                "judge_name": "A-mei",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "萱萱",
+                "coach_name": "Na Ying",
                 "english_name": "Xuan Xuan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "姚贝娜",
+                "coach_name": "Na Ying",
                 "english_name": "Bella Yao",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "朱克",
+                "coach_name": "Na Ying",
                 "english_name": "Zhu Ke",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "侯磊",
+                "coach_name": "Na Ying",
                 "english_name": "Hou Lei",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "倪鹏",
+                "coach_name": "Na Ying",
                 "english_name": "Ni Peng",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "毅光年",
+                "coach_name": "Na Ying",
                 "english_name": "A Light Year",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "赵晗",
+                "coach_name": "Na Ying",
                 "english_name": "Zhao Han",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "田园",
+                "coach_name": "Na Ying",
                 "english_name": "Tian Yuan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "張目",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Mu",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "周诗颍",
+                "coach_name": "Na Ying",
                 "english_name": "Zhou Shiying",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "声音乐团",
+                "coach_name": "Na Ying",
                 "english_name": "Voice Group",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "崔兰花",
+                "coach_name": "Na Ying",
                 "english_name": "Cui Lanhua",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "丁克森",
+                "coach_name": "Na Ying",
                 "english_name": "Ding Kesen",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "唐荭菲",
+                "coach_name": "Na Ying",
                 "english_name": "Tang Hongfei",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "金润吉",
+                "coach_name": "Harlem Yu",
                 "english_name": "Jin Runji",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "苏梦玫",
+                "coach_name": "Harlem Yu",
                 "english_name": "Su Mengmei",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "蘑菇兄弟",
+                "coach_name": "Harlem Yu",
                 "english_name": "Mushroom Brothers",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "葛泓语",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ge Hongyu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "王洪迪",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Hongdi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "叶秉桓",
+                "coach_name": "Harlem Yu",
                 "english_name": "Yeh Ping huan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "邓鼓",
+                "coach_name": "Harlem Yu",
                 "english_name": "Deng Gu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "崔天琪",
+                "coach_name": "Harlem Yu",
                 "english_name": "Cui Tianqi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "吴木蓝",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wu Mulan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "胡梦周",
+                "coach_name": "Harlem Yu",
                 "english_name": "Hu Mengzhou",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王宇",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Yu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "九九",
+                "coach_name": "Harlem Yu",
                 "english_name": "Sophie Chen",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "非非",
+                "coach_name": "Harlem Yu",
                 "english_name": "Fei Fei",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "張珈銘",
+                "coach_name": "Harlem Yu",
                 "english_name": "Zhang Jiaming",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "余俊逸",
+                "coach_name": "Harlem Yu",
                 "english_name": "Yu Junyi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 2,
         "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_2)"
     },
     {
-        "judges": [
+        "coaches": [
             "Chyi Chin",
             "Wang Feng",
             "Na Ying",
             "Yang Kun"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "秦宇子",
+                "coach_name": "Chyi Chin",
                 "english_name": "UZ Qin",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "魏然",
+                "coach_name": "Chyi Chin",
                 "english_name": "Wei Ran",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "刘双双",
+                "coach_name": "Chyi Chin",
                 "english_name": "Liu Shuangshuang",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "张卓含威",
+                "coach_name": "Chyi Chin",
                 "english_name": "Zhang Zhuo Hanwei",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "郑心慈",
+                "coach_name": "Chyi Chin",
                 "english_name": "Cheng Shin ci",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "楼沁",
+                "coach_name": "Chyi Chin",
                 "english_name": "Lina Lou",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "南玛子呷",
+                "coach_name": "Chyi Chin",
                 "english_name": "Nanma Ziga",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "申钰林",
+                "coach_name": "Chyi Chin",
                 "english_name": "Shen Yulin",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "白穆",
+                "coach_name": "Chyi Chin",
                 "english_name": "Bai Mu",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "崔西",
+                "coach_name": "Chyi Chin",
                 "english_name": "Cui Xi",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李蔓",
+                "coach_name": "Chyi Chin",
                 "english_name": "Li Man",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "莉娃",
+                "coach_name": "Chyi Chin",
                 "english_name": "Li Wa",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李致贤",
+                "coach_name": "Chyi Chin",
                 "english_name": "Li Zhixian",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘至佳",
+                "coach_name": "Chyi Chin",
                 "english_name": "Liu Zhijia",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "罗景文",
+                "coach_name": "Chyi Chin",
                 "english_name": "Luo Jingwen",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "胡慧仪",
+                "coach_name": "Chyi Chin",
                 "english_name": "Wendy Woo",
-                "judge_name": "Chyi Chin",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "Khaliq",
+                "coach_name": "Wang Feng",
                 "english_name": "Perhat",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "王凯琪",
+                "coach_name": "Wang Feng",
                 "english_name": "Wang Kaiqi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "耿斯汉",
+                "coach_name": "Wang Feng",
                 "english_name": "Geng Sihan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "李琪",
+                "coach_name": "Wang Feng",
                 "english_name": "Li Qi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "张心杰",
+                "coach_name": "Wang Feng",
                 "english_name": "Mark Chang",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "莫艳琳",
+                "coach_name": "Wang Feng",
                 "english_name": "Mo Yanlin",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "由美",
+                "coach_name": "Wang Feng",
                 "english_name": "You Mei",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "于勃",
+                "coach_name": "Wang Feng",
                 "english_name": "Yu Bo",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "陈昕",
+                "coach_name": "Wang Feng",
                 "english_name": "Chen Xin",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈直",
+                "coach_name": "Wang Feng",
                 "english_name": "Chen Zhi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈乐基",
+                "coach_name": "Wang Feng",
                 "english_name": "Rocky Chan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "石宇凡",
+                "coach_name": "Wang Feng",
                 "english_name": "Shi Yufan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王卓",
+                "coach_name": "Wang Feng",
                 "english_name": "Wang Zhuo",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张丹丹",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Dandan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张婧懿",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Jingyi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "赵祺",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhao Qi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "Bichen",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "陈冰",
+                "coach_name": "Na Ying",
                 "english_name": "Chen Bing",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "李嘉格",
+                "coach_name": "Na Ying",
                 "english_name": "Li Jiage",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "刘明湘",
+                "coach_name": "Na Ying",
                 "english_name": "Rose Liu",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "李维",
+                "coach_name": "Na Ying",
                 "english_name": "Li Wei",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘辰希",
+                "coach_name": "Na Ying",
                 "english_name": "Liu Chenxi",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "夏恒",
+                "coach_name": "Na Ying",
                 "english_name": "Xia Heng",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张江",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Jiang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "崔忠华",
+                "coach_name": "Na Ying",
                 "english_name": "Cui Zhonghua",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "艾怡良",
+                "coach_name": "Na Ying",
                 "english_name": "Eve Ai",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "毛泽少",
+                "coach_name": "Na Ying",
                 "english_name": "Mao Zeshao",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "吐洪江",
+                "coach_name": "Na Ying",
                 "english_name": "Tu Hongjiang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "魏雪漫",
+                "coach_name": "Na Ying",
                 "english_name": "Wei Xueman",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张智勇",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Zhiyong",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "郑俊树",
+                "coach_name": "Na Ying",
                 "english_name": "Zheng Junshu",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "Shen",
+                "coach_name": "Na Ying",
                 "english_name": "Zhou",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "余枫",
+                "coach_name": "Yang Kun",
                 "english_name": "Ryan Yu",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "Tan",
+                "coach_name": "Yang Kun",
                 "english_name": "Melody",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "李文琦",
+                "coach_name": "Yang Kun",
                 "english_name": "Li Wenqi",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "徐剑秋",
+                "coach_name": "Yang Kun",
                 "english_name": "Xu Jianqiu",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "莫海婧",
+                "coach_name": "Yang Kun",
                 "english_name": "Maggie Mo",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "Kendy",
+                "coach_name": "Yang Kun",
                 "english_name": "Robynn",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "戎琦",
+                "coach_name": "Yang Kun",
                 "english_name": "Rong Qi",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "苏琪繁",
+                "coach_name": "Yang Kun",
                 "english_name": "Su Qifan",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "苹果园",
+                "coach_name": "Yang Kun",
                 "english_name": "Apple Garden",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "伊克拉木",
+                "coach_name": "Yang Kun",
                 "english_name": "Ekram",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "开开",
+                "coach_name": "Yang Kun",
                 "english_name": "Kai Kai",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "梁栋江",
+                "coach_name": "Yang Kun",
                 "english_name": "Liang Dongjiang",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘珂",
+                "coach_name": "Yang Kun",
                 "english_name": "Liu Ke",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "秦晓林",
+                "coach_name": "Yang Kun",
                 "english_name": "Qin Xiaolin",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "邓小巧",
+                "coach_name": "Yang Kun",
                 "english_name": "Tang Siu Hau",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "赵钶",
+                "coach_name": "Yang Kun",
                 "english_name": "Zhao Ke",
-                "judge_name": "Yang Kun",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 3,
         "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_3)"
     },
     {
-        "judges": [
+        "coaches": [
             "Harlem Yu",
             "Wang Feng",
             "Na Ying",
             "Jay Chou"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "谭轩辕",
+                "coach_name": "Harlem Yu",
                 "english_name": "Tan Xuanyuan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "赵大格",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ika Zhao",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "张姝",
+                "coach_name": "Harlem Yu",
                 "english_name": "Lotus Zhang",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "马吟吟",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ma Yinyin",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "李文豪",
+                "coach_name": "Harlem Yu",
                 "english_name": "Rex Li",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "童予硕",
+                "coach_name": "Harlem Yu",
                 "english_name": "Tong Yushuo",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "Cao",
+                "coach_name": "Harlem Yu",
                 "english_name": "Jaffri",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "古振邦",
+                "coach_name": "Harlem Yu",
                 "english_name": "Jóhannes Koo",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李文慧",
+                "coach_name": "Harlem Yu",
                 "english_name": "Li Wenhui",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "段欣芮",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ray Duan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "羔露",
+                "coach_name": "Harlem Yu",
                 "english_name": "Usay Kawlu 舞思爱",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王帝",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Di",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "贝贝",
+                "coach_name": "Wang Feng",
                 "english_name": "Beibei",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "黄勇",
+                "coach_name": "Wang Feng",
                 "english_name": "Huang Yong",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "Xiaoyun",
+                "coach_name": "Wang Feng",
                 "english_name": "Huang",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "张鑫鑫",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Xinxin",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "许哲",
+                "coach_name": "Wang Feng",
                 "english_name": "Heo Chul",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张博林",
+                "coach_name": "Wang Feng",
                 "english_name": "Zhang Bolin",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "别日克",
+                "coach_name": "Wang Feng",
                 "english_name": "Bek",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "黄恺",
+                "coach_name": "Wang Feng",
                 "english_name": "Huang Kai",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "林燕",
+                "coach_name": "Wang Feng",
                 "english_name": "Lin Yan",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王飞雪",
+                "coach_name": "Wang Feng",
                 "english_name": "Wang Feixue",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "修儿",
+                "coach_name": "Wang Feng",
                 "english_name": "Xiu er",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "杨宝心",
+                "coach_name": "Wang Feng",
                 "english_name": "Yang Baoxin",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "Lei",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "孙伯纶",
+                "coach_name": "Na Ying",
                 "english_name": "Sun Bolun",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "长宇",
+                "coach_name": "Na Ying",
                 "english_name": "Shuhei Nagasawa",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "朗嘎拉姆",
+                "coach_name": "Na Ying",
                 "english_name": "Vanatsaya Viseskul",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "李嘉琪",
+                "coach_name": "Na Ying",
                 "english_name": "Kiki Li",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张楠",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Nan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "晨悠",
+                "coach_name": "Na Ying",
                 "english_name": "Chenyo",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "凌菱",
+                "coach_name": "Na Ying",
                 "english_name": "Leonala Ling",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张惠春",
+                "coach_name": "Na Ying",
                 "english_name": "Saya Chang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "苏浩",
+                "coach_name": "Na Ying",
                 "english_name": "Su Hao",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "周晓晓",
+                "coach_name": "Na Ying",
                 "english_name": "Zhou Xiaoxiao",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "朱强",
+                "coach_name": "Na Ying",
                 "english_name": "Zhu Qiang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈梓童",
+                "coach_name": "Jay Chou",
                 "english_name": "Tifa Chen",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "李安",
+                "coach_name": "Jay Chou",
                 "english_name": "Leon Lee",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "FIFTH_PLACE",
                 "rank_category_value": 4
             },
             {
                 "chinese_name": "Lee",
+                "coach_name": "Jay Chou",
                 "english_name": "Gin",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "Kwan",
+                "coach_name": "Jay Chou",
                 "english_name": "Sharon",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "黄圣文",
+                "coach_name": "Jay Chou",
                 "english_name": "Samuel Huang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘伟男",
+                "coach_name": "Jay Chou",
                 "english_name": "Will Jay",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "李安安",
+                "coach_name": "Jay Chou",
                 "english_name": "Abigail Garza",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张旸",
+                "coach_name": "Jay Chou",
                 "english_name": "Jeffery Zhang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "江源东",
+                "coach_name": "Jay Chou",
                 "english_name": "Jiang Yuandong",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "徐林",
+                "coach_name": "Jay Chou",
                 "english_name": "Lim Xu",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "柳畅源",
+                "coach_name": "Jay Chou",
                 "english_name": "Michael Liu",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "詹小栎",
+                "coach_name": "Jay Chou",
                 "english_name": "Zhan Xiaoli",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 4,
         "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_4)"
     },
     {
-        "judges": [
+        "coaches": [
             "Jay Chou",
             "Wang Feng",
             "Na Ying",
             "Harlem Yu"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "向洋",
+                "coach_name": "Jay Chou",
                 "english_name": "Nathan Hartono",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "低调",
+                "coach_name": "Jay Chou",
                 "english_name": "Lokey",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "羽田",
+                "coach_name": "Jay Chou",
                 "english_name": "Yutian",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "朴翔",
+                "coach_name": "Jay Chou",
                 "english_name": "Pu Xiang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "曾敏杰",
+                "coach_name": "Jay Chou",
                 "english_name": "Zeng Minjie",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "包师语",
+                "coach_name": "Jay Chou",
                 "english_name": "Bao Shiyu",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "程思佳",
+                "coach_name": "Jay Chou",
                 "english_name": "Cheng Sijia",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "黄俊杰",
+                "coach_name": "Jay Chou",
                 "english_name": "Huang Junjie",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "单良",
+                "coach_name": "Jay Chou",
                 "english_name": "Shan Liang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "吴江",
+                "coach_name": "Jay Chou",
                 "english_name": "Wu Jiang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "高瑞",
+                "coach_name": "Jay Chou",
                 "english_name": "Gao Rui",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "游淼",
+                "coach_name": "Jay Chou",
                 "english_name": "You Miao",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "蒋敦豪",
+                "coach_name": "Wang Feng",
                 "english_name": "Jiang Dunhao",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "徐歌阳",
+                "coach_name": "Wang Feng",
                 "english_name": "Xu Geyang",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "刘文天",
+                "coach_name": "Wang Feng",
                 "english_name": "Liu Wentian",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "林恺伦",
+                "coach_name": "Wang Feng",
                 "english_name": "Karen Lam",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "郑迦文",
+                "coach_name": "Wang Feng",
                 "english_name": "Zheng Jiawen",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "阿瑞",
+                "coach_name": "Wang Feng",
                 "english_name": "Ari",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "白若溪",
+                "coach_name": "Wang Feng",
                 "english_name": "Bai Ruoxi",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘雪婧",
+                "coach_name": "Wang Feng",
                 "english_name": "Liu Xuejing",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "吕俊哲",
+                "coach_name": "Wang Feng",
                 "english_name": "Lv Junzhe",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "项亚蕻",
+                "coach_name": "Wang Feng",
                 "english_name": "Xiang Yahong",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "温妮",
+                "coach_name": "Wang Feng",
                 "english_name": "Wen Ni",
-                "judge_name": "Wang Feng",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "汪晨蕊",
+                "coach_name": "Na Ying",
                 "english_name": "Wang Chenrui",
-                "judge_name": "Na Ying",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "李佩玲",
+                "coach_name": "Na Ying",
                 "english_name": "Jeryl Lee",
-                "judge_name": "Na Ying",
                 "rank_category_name": "SIXTH_PLACE",
                 "rank_category_value": 5
             },
             {
                 "chinese_name": "苏立生",
+                "coach_name": "Na Ying",
                 "english_name": "Su Lisheng",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "万妮达",
+                "coach_name": "Na Ying",
                 "english_name": "Vinida",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "杨搏",
+                "coach_name": "Na Ying",
                 "english_name": "Yang Bo",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "白静晨",
+                "coach_name": "Na Ying",
                 "english_name": "Bai Jingchen",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "侯志斌",
+                "coach_name": "Na Ying",
                 "english_name": "Hou Zhibin",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "杨山",
+                "coach_name": "Na Ying",
                 "english_name": "Yang Shan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "岳靖淇",
+                "coach_name": "Na Ying",
                 "english_name": "Yue Jingqi",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "周旸",
+                "coach_name": "Na Ying",
                 "english_name": "Zhou Yang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "艾斯坎尔",
+                "coach_name": "Na Ying",
                 "english_name": "Aisikaner",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "关世鹏",
+                "coach_name": "Na Ying",
                 "english_name": "Guan Shipeng",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘雨潼",
+                "coach_name": "Na Ying",
                 "english_name": "Liu Yutong",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "朱兰兰",
+                "coach_name": "Na Ying",
                 "english_name": "Zhu Lanlan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "杨美娜",
+                "coach_name": "Harlem Yu",
                 "english_name": "Yang Meina",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "FIFTH_PLACE",
                 "rank_category_value": 4
             },
             {
                 "chinese_name": "吉克皓",
+                "coach_name": "Harlem Yu",
                 "english_name": "Jike Hao",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "赵小熙",
+                "coach_name": "Harlem Yu",
                 "english_name": "Zhao Xiaoxi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "王闯",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Chuang",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "姚希",
+                "coach_name": "Harlem Yu",
                 "english_name": "Yao Xi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "官灵芝",
+                "coach_name": "Harlem Yu",
                 "english_name": "Emily Guan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "付豪",
+                "coach_name": "Harlem Yu",
                 "english_name": "Fu Hao",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "李瑞轩",
+                "coach_name": "Harlem Yu",
                 "english_name": "Li Ruixuan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "阿依丁",
+                "coach_name": "Harlem Yu",
                 "english_name": "Lil Akin 阿克江",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "吴映香",
+                "coach_name": "Harlem Yu",
                 "english_name": "Lucia Wu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张姊禾",
+                "coach_name": "Harlem Yu",
                 "english_name": "Zhang Zihe",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 5,
         "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_1)"
     },
     {
-        "judges": [
+        "coaches": [
             "Eason Chan",
             "Na Ying",
             "Liu Huan",
             "Jay Chou"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "叶晓粤",
+                "coach_name": "Eason Chan",
                 "english_name": "Ye Xiaoyue",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "肖凯晔",
+                "coach_name": "Eason Chan",
                 "english_name": "Xiao Kaiye",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "FIFTH_PLACE",
                 "rank_category_value": 4
             },
             {
                 "chinese_name": "古洁縈",
+                "coach_name": "Eason Chan",
                 "english_name": "Jeslyn Khoo",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "张泽",
+                "coach_name": "Eason Chan",
                 "english_name": "Zhang Ze",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "杜星萤",
+                "coach_name": "Eason Chan",
                 "english_name": "Du Xingying",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "闫峻",
+                "coach_name": "Eason Chan",
                 "english_name": "Yan Jun",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "于梓贝",
+                "coach_name": "Eason Chan",
                 "english_name": "Yu Zibei",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "韩帅",
+                "coach_name": "Eason Chan",
                 "english_name": "Han Shuai",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "夏启明",
+                "coach_name": "Eason Chan",
                 "english_name": "Xia Qiming",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "次仁拉吉",
+                "coach_name": "Eason Chan",
                 "english_name": "Cirenlaky",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "黄韵琴",
+                "coach_name": "Eason Chan",
                 "english_name": "Khim Ng",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘羽晟",
+                "coach_name": "Eason Chan",
                 "english_name": "Sean Liu",
-                "judge_name": "Eason Chan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "郭沁",
+                "coach_name": "Na Ying",
                 "english_name": "Doris Guo",
-                "judge_name": "Na Ying",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "高",
+                "coach_name": "Na Ying",
                 "english_name": "Curley G 希林娜依",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "李雅",
+                "coach_name": "Na Ying",
                 "english_name": "Leah Li",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "叶炫清",
+                "coach_name": "Na Ying",
                 "english_name": "Ye Xuanqing",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "王乐汀",
+                "coach_name": "Na Ying",
                 "english_name": "Billdisc Wang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王振诺",
+                "coach_name": "Na Ying",
                 "english_name": "Edward Wang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "毛雨张",
+                "coach_name": "Na Ying",
                 "english_name": "Miracle Mao",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "邵元",
+                "coach_name": "Na Ying",
                 "english_name": "Shao Yuan",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "谢慧娴",
+                "coach_name": "Na Ying",
                 "english_name": "Stella Seah",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "扎西平措",
+                "coach_name": "Liu Huan",
                 "english_name": "Tashi Phuntsok",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "子子",
+                "coach_name": "Liu Huan",
                 "english_name": "Zizi",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "胡斯默",
+                "coach_name": "Liu Huan",
                 "english_name": "Hu Simo",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "冀行",
+                "coach_name": "Liu Huan",
                 "english_name": "Ji Hang",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "张婉清",
+                "coach_name": "Liu Huan",
                 "english_name": "Asia Zhang",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张一腾",
+                "coach_name": "Liu Huan",
                 "english_name": "Ethan Zhang",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "川虎",
+                "coach_name": "Liu Huan",
                 "english_name": "Frank Annie",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "谢少唐",
+                "coach_name": "Liu Huan",
                 "english_name": "Jeffrey Chen",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "朱婷婷",
+                "coach_name": "Liu Huan",
                 "english_name": "Zhu Tingting",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "韩艾洁",
+                "coach_name": "Liu Huan",
                 "english_name": "Han Aegeol",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "胡栋栋",
+                "coach_name": "Liu Huan",
                 "english_name": "Hu Dongdong",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "刘凯",
+                "coach_name": "Liu Huan",
                 "english_name": "Liu Kai",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "林筱庭",
+                "coach_name": "Liu Huan",
                 "english_name": "Verna Lin",
-                "judge_name": "Liu Huan",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "董姿彦",
+                "coach_name": "Jay Chou",
                 "english_name": "Joanna Dong",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "达布希勒图",
+                "coach_name": "Jay Chou",
                 "english_name": "Darren",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "陈颖恩",
+                "coach_name": "Jay Chou",
                 "english_name": "Janice Tan",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "卓猷燕",
+                "coach_name": "Jay Chou",
                 "english_name": "Olinda Cho",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "莫安琪",
+                "coach_name": "Jay Chou",
                 "english_name": "Angel Mo",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "张鑫",
+                "coach_name": "Jay Chou",
                 "english_name": "Kim Zhang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "李硕",
+                "coach_name": "Jay Chou",
                 "english_name": "Lucas Lee",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "肖敏晔",
+                "coach_name": "Jay Chou",
                 "english_name": "Xiao Minye",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "朱文婷",
+                "coach_name": "Jay Chou",
                 "english_name": "Zhu Wenting",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             }
         ],
+        "season": 6,
         "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_2)"
     },
     {
-        "judges": [
+        "coaches": [
             "Nicholas Tse",
             "Jay Chou",
             "Harlem Yu",
             "Li Jian"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "刘郡格",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Liu Junge",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "打包安琪",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Double Angel",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "邓紫霄",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Deng Zixiao",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "徐暐翔",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Vash Hsu",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "王朝",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Wang Chao",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "李佳丹",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Li Jiadan",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "郝亚青",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Hao Yaqing",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈俊皓",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Jun Chan",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "廖颖轩",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Liao Yingxuan",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "宿雨涵",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Su Yuhan",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "邢凯翔",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Xing Kaixiang",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "徐诗寒",
+                "coach_name": "Nicholas Tse",
                 "english_name": "Xu Shihan",
-                "judge_name": "Nicholas Tse",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "宿涵",
+                "coach_name": "Jay Chou",
                 "english_name": "Su Han",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "周兴才让",
+                "coach_name": "Jay Chou",
                 "english_name": "Cering",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "FIFTH_PLACE",
                 "rank_category_value": 4
             },
             {
                 "chinese_name": "张神儿",
+                "coach_name": "Jay Chou",
                 "english_name": "Zhang Shen er",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "Wy",
+                "coach_name": "Jay Chou",
                 "english_name": "Evis",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "金色炸蛋",
+                "coach_name": "Jay Chou",
                 "english_name": "Golden Eggplosives",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "吴奇",
+                "coach_name": "Jay Chou",
                 "english_name": "Bryce Wu",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘嘉慧",
+                "coach_name": "Jay Chou",
                 "english_name": "Eli Low",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈佳杏",
+                "coach_name": "Jay Chou",
                 "english_name": "Nix",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王乃迎",
+                "coach_name": "Jay Chou",
                 "english_name": "Wang Naiying",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张超洋",
+                "coach_name": "Jay Chou",
                 "english_name": "Zhang Chaoyang",
-                "judge_name": "Jay Chou",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "黎真吾",
+                "coach_name": "Harlem Yu",
                 "english_name": "Li Zhenwu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "郑伟杰",
+                "coach_name": "Harlem Yu",
                 "english_name": "Nigel Tay",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "黄稔钦",
+                "coach_name": "Harlem Yu",
                 "english_name": "Huang Renqin",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "刘思延",
+                "coach_name": "Harlem Yu",
                 "english_name": "Suzanne Low",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "毕晓鑫",
+                "coach_name": "Harlem Yu",
                 "english_name": "Ericson Bi",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "黄玉儿",
+                "coach_name": "Harlem Yu",
                 "english_name": "June Wong",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王曼玉",
+                "coach_name": "Harlem Yu",
                 "english_name": "Blue Wang",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈泳彤",
+                "coach_name": "Harlem Yu",
                 "english_name": "JC",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈旭侃",
+                "coach_name": "Harlem Yu",
                 "english_name": "Kenny Chan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "彭安妮",
+                "coach_name": "Harlem Yu",
                 "english_name": "Peng Anni",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "旦增尼玛",
+                "coach_name": "Li Jian",
                 "english_name": "Tenzin Nyima",
-                "judge_name": "Li Jian",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "康树龙",
+                "coach_name": "Li Jian",
                 "english_name": "Kang Shulong",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "谭秋娟",
+                "coach_name": "Li Jian",
                 "english_name": "Tiger",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_2",
                 "rank_category_value": 8
             },
             {
                 "chinese_name": "赵家豪",
+                "coach_name": "Li Jian",
                 "english_name": "Gary Zhao",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "李志宇",
+                "coach_name": "Li Jian",
                 "english_name": "Li Zhiyu",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王轩",
+                "coach_name": "Li Jian",
                 "english_name": "Wang Xuan",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "村田白慧莉",
+                "coach_name": "Li Jian",
                 "english_name": "Beverly Lim Morata",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "陈冠宇",
+                "coach_name": "Li Jian",
                 "english_name": "Chen Guanyu",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "高巾立",
+                "coach_name": "Li Jian",
                 "english_name": "Gao Jinli",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "廖野天",
+                "coach_name": "Li Jian",
                 "english_name": "Liao Yetian",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "王恺",
+                "coach_name": "Li Jian",
                 "english_name": "Wang Kai",
-                "judge_name": "Li Jian",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 7,
         "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_3)"
     },
     {
-        "judges": [
+        "coaches": [
             "Li Ronghao",
             "Harlem Yu",
             "Na Ying",
             "Wang Leehom"
         ],
-        "results": [
+        "contestant_overall_results": [
             {
                 "chinese_name": "邢晗铭",
+                "coach_name": "Li Ronghao",
                 "english_name": "Xing Hanming",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "WINNER",
                 "rank_category_value": 0
             },
             {
                 "chinese_name": "李凡一",
+                "coach_name": "Li Ronghao",
                 "english_name": "Li Fanyi",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "陈小同",
+                "coach_name": "Li Ronghao",
                 "english_name": "Chen Xiaotong",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "骆蕾",
+                "coach_name": "Li Ronghao",
                 "english_name": "Luo Lei",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "胡睿",
+                "coach_name": "Li Ronghao",
                 "english_name": "Hu Rui",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "刘佳琪",
+                "coach_name": "Li Ronghao",
                 "english_name": "Liu Jiaqi",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "由博文",
+                "coach_name": "Li Ronghao",
                 "english_name": "You Bowen",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "徐丹丹",
+                "coach_name": "Li Ronghao",
                 "english_name": "Dora Hsu",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "刘珉轩",
+                "coach_name": "Li Ronghao",
                 "english_name": "Liu Minxuan",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "何磊",
+                "coach_name": "Li Ronghao",
                 "english_name": "He Lei",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "吉胡",
+                "coach_name": "Li Ronghao",
                 "english_name": "Ji Hu",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "田颖",
+                "coach_name": "Li Ronghao",
                 "english_name": "Tian Ying",
-                "judge_name": "Li Ronghao",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "陈其楠",
+                "coach_name": "Harlem Yu",
                 "english_name": "Chen Qinan",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "FOURTH_PLACE",
                 "rank_category_value": 3
             },
             {
                 "chinese_name": "汪帅",
+                "coach_name": "Harlem Yu",
                 "english_name": "Wang Shuai",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "贾铮",
+                "coach_name": "Harlem Yu",
                 "english_name": "Jia Zheng",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "陈润秋",
+                "coach_name": "Harlem Yu",
                 "english_name": "Chen Runqiu",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "姚斐",
+                "coach_name": "Harlem Yu",
                 "english_name": "Yao Fei",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "卓玛殷措",
+                "coach_name": "Harlem Yu",
                 "english_name": "Dolma Intshok",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "张鹏",
+                "coach_name": "Harlem Yu",
                 "english_name": "Zhang Peng",
-                "judge_name": "Harlem Yu",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "斯丹曼簇",
+                "coach_name": "Na Ying",
                 "english_name": "Sidanmanchu",
-                "judge_name": "Na Ying",
                 "rank_category_name": "RUNNER_UP",
                 "rank_category_value": 1
             },
             {
                 "chinese_name": "爱新觉罗媚",
+                "coach_name": "Na Ying",
                 "english_name": "Jasmyn Aisin Gioro",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "张天予",
+                "coach_name": "Na Ying",
                 "english_name": "Zhang Tianyu",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "苏洋",
+                "coach_name": "Na Ying",
                 "english_name": "Su Yang",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "蔡咏琪",
+                "coach_name": "Na Ying",
                 "english_name": "Annabella Chua",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "杨一歌",
+                "coach_name": "Na Ying",
                 "english_name": "Yang Yige",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "李伦",
+                "coach_name": "Na Ying",
                 "english_name": "Li Lun",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "崔一",
+                "coach_name": "Na Ying",
                 "english_name": "Cui Yi",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "郭皓",
+                "coach_name": "Na Ying",
                 "english_name": "Guo Hao",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "金国宪",
+                "coach_name": "Na Ying",
                 "english_name": "Kim Jin",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "常虹",
+                "coach_name": "Na Ying",
                 "english_name": "Chang Hong",
-                "judge_name": "Na Ying",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "李芷婷",
+                "coach_name": "Wang Leehom",
                 "english_name": "Nasi Li",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "THIRD_PLACE",
                 "rank_category_value": 2
             },
             {
                 "chinese_name": "屈杨",
+                "coach_name": "Wang Leehom",
                 "english_name": "Qu Yang",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "刘美麟",
+                "coach_name": "Wang Leehom",
                 "english_name": "Liu Meilin",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "崔佳莹",
+                "coach_name": "Wang Leehom",
                 "english_name": "Cui Jiaying",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "肖蔷",
+                "coach_name": "Wang Leehom",
                 "english_name": "Xiao Qiang",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_2",
                 "rank_category_value": 6
             },
             {
                 "chinese_name": "CPU",
+                "coach_name": "Wang Leehom",
                 "english_name": "",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "林言奕",
+                "coach_name": "Wang Leehom",
                 "english_name": "Andy Lin",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_PLAYOFFS_ROUND_1",
                 "rank_category_value": 7
             },
             {
                 "chinese_name": "洪雨雷",
+                "coach_name": "Wang Leehom",
                 "english_name": "Harry Hong",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "以格",
+                "coach_name": "Wang Leehom",
                 "english_name": "Sujane",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "杨默依",
+                "coach_name": "Wang Leehom",
                 "english_name": "Yang Moyi",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王文芳",
+                "coach_name": "Wang Leehom",
                 "english_name": "Wang Wenfang",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "孙振宇",
+                "coach_name": "Wang Leehom",
                 "english_name": "Sun Zhenyu",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "旦增卓嘎",
+                "coach_name": "Wang Leehom",
                 "english_name": "Tenzin Dolkar",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "王三",
+                "coach_name": "Wang Leehom",
                 "english_name": "Wang San",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_KNOCKOUTS_ROUND_1",
                 "rank_category_value": 9
             },
             {
                 "chinese_name": "赖淞凤",
+                "coach_name": "Wang Leehom",
                 "english_name": "Nicole Lai",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             },
             {
                 "chinese_name": "罗煜斌",
+                "coach_name": "Wang Leehom",
                 "english_name": "Luo Yubin",
-                "judge_name": "Wang Leehom",
                 "rank_category_name": "ELIMINATED_IN_BATTLES",
                 "rank_category_value": 10
             }
         ],
+        "season": 8,
         "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_4)"
     }
 ]
