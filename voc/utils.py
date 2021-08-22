@@ -82,7 +82,7 @@ def gen_all_season_data_offline():
     with open("../data/wiki_dump.json") as f:
         wiki_dump = json.load(f)
         for season_data in wiki_dump:
-            season_content = season_data["season_soup"]
+            season_content = season_data["season_content"]
             season_soup = BeautifulSoup(season_content, "html.parser")
             season_num = season_data["season_num"]
             season_url = season_data["season_url"]
