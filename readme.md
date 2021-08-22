@@ -32,7 +32,11 @@ coaches that turned for each contestant and which coach a contestant ultimately 
 listing of all the coaches that have been on the show and which coaches were on which seasons
 
 ### all_data
-aggregates the coach, season overall results and blind auditions into one data set
+aggregates the coach, season overall results and blind auditions into one data set.
+Also includes `contestant_id_to_data` a set of all the contestants keyed by contestant ID as described above
+which contains both the overall result and blind audition results. 
+Note that some contestants will have an overall result, but no blind audition
+results because they were "montaged"
 
 ### wiki_dump
 dump of the html for all the wiki pages that can be used to do processing offline
