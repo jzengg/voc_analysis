@@ -12,6 +12,7 @@ from voc.utils import (
     process_table_row_spans,
     split_english_and_chinese_name,
     save_as_json,
+    gen_all_season_num_and_soup,
 )
 
 INVALID_NAME_COMPONENTS = [","]
@@ -213,26 +214,27 @@ def get_season_results(season_soup, season_coaches):
     return results
 
 
-if __name__ == "__main__":
-    season_urls = [*ALL_SEASON_URLS]
+def get_blind_auditions_data():
     season_results = []
     coach_data = get_coach_data()
-    for season_index, season_url in enumerate(season_urls):
-        human_season = season_index + 1
-        season_response = requests.get(
-            url=season_url,
-        )
-        soup = BeautifulSoup(season_response.content, "html.parser")
-        season_coaches = coach_data["season_to_coaches"][human_season]
-        results = get_season_results(soup, season_coaches)
+    for season_data in gen_all_season_num_and_soup():
+        season_soup = season_data["season_soup"]
+        season_num = season_data["season_num"]
+        season_url = season_data["season_url"]
+        season_coaches = coach_data["season_to_coaches"][season_num]
+        results = get_season_results(season_soup, season_coaches)
         season_results.append(
             {
                 "blind_auditions_results": results,
-                "wiki_url": season_url,
-                "season": human_season,
+                "season_url": season_url,
+                "season_num": season_num,
                 "coaches": season_coaches,
             }
         )
+    return season_results
 
-    save_as_json(season_results, "blind_auditions")
-    pp.pprint(season_results)
+
+if __name__ == "__main__":
+    data = get_blind_auditions_data()
+    save_as_json(data, "blind_auditions")
+    pp.pprint(data)

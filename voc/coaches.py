@@ -1,13 +1,16 @@
 from voc.constants import pp
 from voc.utils import (
-    save_as_json, gen_all_season_num_and_soup,
+    save_as_json,
+    gen_all_season_num_and_soup,
 )
 
 
 def get_coach_data():
     all_coaches = set()
-    season_to_coaches = {}
-    for season_num, season_soup in gen_all_season_num_and_soup():
+    season_num_to_coaches = {}
+    for season_data in gen_all_season_num_and_soup():
+        season_soup = season_data["season_soup"]
+        season_num = season_data["season_num"]
         results_summary_table = season_soup.find_all("table", class_="wikitable")[0]
         coaches = [
             next(tag.stripped_strings)
@@ -15,9 +18,12 @@ def get_coach_data():
             if tag.attrs.get("rowspan")
         ]
         all_coaches |= set(coaches)
-        season_to_coaches[season_num] = coaches
+        season_num_to_coaches[season_num] = coaches
     sorted_coaches = sorted(list(all_coaches))
-    coach_data = {"all_coaches": sorted_coaches, "season_to_coaches": season_to_coaches}
+    coach_data = {
+        "all_coaches": sorted_coaches,
+        "season_num_to_coaches": season_num_to_coaches,
+    }
     return coach_data
 
 

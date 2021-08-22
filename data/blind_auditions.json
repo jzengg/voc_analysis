@@ -1984,8 +1984,8 @@
             "Liu Huan",
             "Harlem Yu"
         ],
-        "season": 1,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)"
+        "season_num": 1,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)"
     },
     {
         "blind_auditions_results": [
@@ -2864,8 +2864,8 @@
             "Na Ying",
             "Harlem Yu"
         ],
-        "season": 2,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_2)"
+        "season_num": 2,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_2)"
     },
     {
         "blind_auditions_results": [
@@ -3968,8 +3968,8 @@
             "Na Ying",
             "Yang Kun"
         ],
-        "season": 3,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_3)"
+        "season_num": 3,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_3)"
     },
     {
         "blind_auditions_results": [
@@ -4750,8 +4750,8 @@
             "Na Ying",
             "Jay Chou"
         ],
-        "season": 4,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_4)"
+        "season_num": 4,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_4)"
     },
     {
         "blind_auditions_results": [
@@ -5350,8 +5350,8 @@
             "Na Ying",
             "Harlem Yu"
         ],
-        "season": 5,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_1)"
+        "season_num": 5,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_1)"
     },
     {
         "blind_auditions_results": [
@@ -6132,8 +6132,8 @@
             "Liu Huan",
             "Jay Chou"
         ],
-        "season": 6,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_2)"
+        "season_num": 6,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_2)"
     },
     {
         "blind_auditions_results": [
@@ -6802,8 +6802,8 @@
             "Harlem Yu",
             "Li Jian"
         ],
-        "season": 7,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_3)"
+        "season_num": 7,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_3)"
     },
     {
         "blind_auditions_results": [
@@ -7528,7 +7528,7 @@
             "Na Ying",
             "Wang Leehom"
         ],
-        "season": 8,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_4)"
+        "season_num": 8,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_4)"
     }
 ]

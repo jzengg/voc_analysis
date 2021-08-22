@@ -65,4 +65,8 @@ def gen_all_season_num_and_soup():
             url=season_url,
         )
         season_soup = BeautifulSoup(season_response.content, "html.parser")
-        yield season_index + 1, season_soup
+        yield {
+            "season_num": season_index + 1,
+            "season_soup": season_soup,
+            "season_url": season_url,
+        }
