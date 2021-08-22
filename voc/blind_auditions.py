@@ -19,7 +19,18 @@ COACH_AND_CONTESTANT_CHOICE_SELECTED_COLORS = ["#ffc40c", "#fdfc8f"]
 
 def parse_unstructured_name_cell(cell):
     english_name_raw = next(child for child in cell.stripped_strings)
-    if cell.span:
+    # group names will have a ul
+    if cell.ul:
+        # handle groups with no chinese name
+        english_name_raw = english_name_raw.replace(":", "")
+        name_data = split_english_and_chinese_name(english_name_raw)
+        english_name_raw = name_data["english_name"]
+        # hack for this group which doesn't have chinese name in blind auditions but does in overall results
+        if english_name_raw == "Jia Ning Group":
+            chinese_name_raw = "佳宁组合"
+        else:
+            chinese_name_raw = name_data["chinese_name"]
+    elif cell.span:
         chinese_name_raw = cell.span.string.strip()
     else:
         english_name_raw, chinese_name_raw = english_name_raw.split("(")

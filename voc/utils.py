@@ -48,8 +48,8 @@ def process_table_row_spans(table, bs):
 
 
 def split_english_and_chinese_name(name_raw):
-    *english_name_parts, chinese_name = re.split(r"\W+", name_raw)
-    english_name = " ".join(english_name_parts)
+    chinese_name = "".join(re.findall(r"[\u4e00-\u9fff]+", name_raw))
+    english_name = " ".join(re.findall(r"[a-zA-Z'\"]+", name_raw))
     return {"english_name": english_name, "chinese_name": chinese_name}
 
 

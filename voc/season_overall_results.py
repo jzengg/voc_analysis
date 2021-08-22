@@ -7,7 +7,8 @@ from voc.utils import (
     get_background_color_from_style,
     split_english_and_chinese_name,
     save_as_json,
-    gen_all_season_data, get_contestant_id,
+    gen_all_season_data,
+    get_contestant_id,
 )
 
 
@@ -111,7 +112,9 @@ def get_season_results(season_soup, season_num) -> Tuple[List[Dict], List[str], 
                     **name_data,
                     "coach_name": coach_name,
                 }
-                contestant_id = get_contestant_id({**name_data, 'season_num': season_num})
+                contestant_id = get_contestant_id(
+                    {**name_data, "season_num": season_num}
+                )
                 contestant_id_to_results[contestant_id] = result
                 coach_results.append(result)
     return coach_results, coach_names, contestant_id_to_results
@@ -123,7 +126,9 @@ def get_overall_results_data():
         season_soup = season_data["season_soup"]
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]
-        contestants, coaches, contestant_id_to_results = get_season_results(season_soup, season_num)
+        contestants, coaches, contestant_id_to_results = get_season_results(
+            season_soup, season_num
+        )
         season_results.append(
             {
                 "contestant_overall_results": contestants,
@@ -139,4 +144,4 @@ def get_overall_results_data():
 if __name__ == "__main__":
     data = get_overall_results_data()
     pp.pprint(data)
-    # save_as_json(data, "season_overall_results")
+    save_as_json(data, "season_overall_results")
