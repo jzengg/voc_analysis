@@ -400,8 +400,8 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 1,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)"
+        "season_num": 1,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_1)"
     },
     {
         "coaches": [
@@ -804,8 +804,8 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 2,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_2)"
+        "season_num": 2,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_2)"
     },
     {
         "coaches": [
@@ -1264,8 +1264,8 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 3,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_3)"
+        "season_num": 3,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_3)"
     },
     {
         "coaches": [
@@ -1612,8 +1612,8 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 4,
-        "wiki_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_4)"
+        "season_num": 4,
+        "season_url": "https://en.wikipedia.org/wiki/The_Voice_of_China_(season_4)"
     },
     {
         "coaches": [
@@ -1960,8 +1960,8 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 5,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_1)"
+        "season_num": 5,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_1)"
     },
     {
         "coaches": [
@@ -2273,8 +2273,8 @@
                 "rank_category_value": 9
             }
         ],
-        "season": 6,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_2)"
+        "season_num": 6,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_2)"
     },
     {
         "coaches": [
@@ -2586,8 +2586,8 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 7,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_3)"
+        "season_num": 7,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_3)"
     },
     {
         "coaches": [
@@ -2920,7 +2920,7 @@
                 "rank_category_value": 10
             }
         ],
-        "season": 8,
-        "wiki_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_4)"
+        "season_num": 8,
+        "season_url": "https://en.wikipedia.org/wiki/Sing!_China_(season_4)"
     }
 ]

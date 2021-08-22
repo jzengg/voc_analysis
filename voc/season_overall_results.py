@@ -1,14 +1,13 @@
-import requests
 from typing import List, Tuple, Dict
 
-from bs4 import BeautifulSoup
 from enum import Enum
 
-from voc.constants import pp, ALL_SEASON_URLS
+from voc.constants import pp
 from voc.utils import (
     get_background_color_from_style,
     split_english_and_chinese_name,
     save_as_json,
+    gen_all_season_num_and_soup,
 )
 
 
@@ -115,26 +114,25 @@ def get_season_results(season_soup) -> Tuple[List[Dict], List[str]]:
     return coach_results, coach_names
 
 
-if __name__ == "__main__":
-    season_urls = [*ALL_SEASON_URLS]
+def get_overall_results_data():
     season_results = []
-    all_coaches = set()
-    coaches_to_season = {}
-    for season_index, season_url in enumerate(season_urls):
-        season_response = requests.get(
-            url=season_url,
-        )
-        soup = BeautifulSoup(season_response.content, "html.parser")
-        contestants, coaches = get_season_results(soup)
-        human_season = season_index + 1
-
+    for season_data in gen_all_season_num_and_soup():
+        season_soup = season_data["season_soup"]
+        season_num = season_data["season_num"]
+        season_url = season_data["season_url"]
+        contestants, coaches = get_season_results(season_soup)
         season_results.append(
             {
                 "contestant_overall_results": contestants,
-                "wiki_url": season_url,
-                "season": human_season,
+                "season_url": season_url,
+                "season_num": season_num,
                 "coaches": coaches,
             }
         )
-    pp.pprint(season_results)
-    save_as_json(season_results, "season_overall_results")
+    return season_results
+
+
+if __name__ == "__main__":
+    data = get_overall_results_data()
+    pp.pprint(data)
+    save_as_json(data, "season_overall_results")

@@ -1,11 +1,8 @@
-import requests
 import re
-from bs4 import BeautifulSoup
 
 from voc.coaches import get_coach_data
 from voc.constants import (
     pp,
-    ALL_SEASON_URLS,
 )
 from voc.utils import (
     get_background_color_from_style,
