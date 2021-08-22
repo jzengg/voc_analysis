@@ -127,8 +127,7 @@ if __name__ == "__main__":
         soup = BeautifulSoup(season_response.content, "html.parser")
         contestants, coaches = get_season_results(soup)
         human_season = season_index + 1
-        all_coaches |= set(coaches)
-        coaches_to_season[human_season] = coaches
+
         season_results.append(
             {
                 "contestant_overall_results": contestants,
@@ -137,12 +136,5 @@ if __name__ == "__main__":
                 "coaches": coaches,
             }
         )
-    sorted_coaches = sorted(list(all_coaches))
-
-    pp.pprint(all_coaches)
-    pp.pprint(coaches_to_season)
     pp.pprint(season_results)
-
-    coach_data = {"all_coaches": sorted_coaches, "coaches_to_season": coaches_to_season}
-    save_as_json(coach_data, "coaches")
     save_as_json(season_results, "season_overall_results")

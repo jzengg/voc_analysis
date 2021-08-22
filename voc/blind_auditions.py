@@ -2,6 +2,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
+from voc.coaches import get_coach_data
 from voc.constants import (
     pp,
     ALL_SEASON_URLS,
@@ -100,41 +101,51 @@ def parse_location_cell(cell):
     return {"location": location}
 
 
-def parse_season_1_coach_and_contestant_choice_cells(cells):
-    judge_choices = [bool(cell.a) for cell in cells]
-    selected_judge = next(
+def parse_season_1_coach_and_contestant_choice_cells(cells, season_coaches):
+    coach_choices = [
+        {"coach_turned": bool(cell.a), "coach_name": season_coaches[index]}
+        for index, cell in enumerate(cells)
+    ]
+    selected_coach = next(
         (
-            index
+            season_coaches[index]
             for index, cell in enumerate(cells)
             if get_background_color_from_style(cell.attrs.get("style"))
             in COACH_AND_CONTESTANT_CHOICE_SELECTED_COLORS
         ),
         None,
     )
-    return {"judge_choices": judge_choices, "selected_judge": selected_judge}
+    return {"coach_choices": coach_choices, "selected_coach": selected_coach}
 
 
-def parse_coach_and_contestant_choice_cells(cells):
-    judge_choices = [next(cell.stripped_strings, "—") == "✔" for cell in cells]
-    selected_judge = next(
+def parse_coach_and_contestant_choice_cells(cells, season_coaches):
+    coach_choices = [
+        {
+            "coach_turned": next(cell.stripped_strings, "—"),
+            "coach_name": season_coaches[index],
+        }
+        == "✔"
+        for index, cell in enumerate(cells)
+    ]
+    selected_coach = next(
         (
-            index
+            season_coaches[index]
             for index, cell in enumerate(cells)
             if get_background_color_from_style(cell.attrs.get("style"))
             in COACH_AND_CONTESTANT_CHOICE_SELECTED_COLORS
         ),
         None,
     )
-    return {"judge_choices": judge_choices, "selected_judge": selected_judge}
+    return {"coach_choices": coach_choices, "selected_coach": selected_coach}
 
 
 # season 1 combines data in name cell but it's broken out into dedicated columns in later seasons (age, hometown).
-def parse_unstructured_contestant_row(contestant_row):
+def parse_unstructured_contestant_row(contestant_row, season_coaches):
     name_cell, song_cell, *coach_choices = contestant_row
     name_cell_data = parse_unstructured_name_cell(name_cell)
     song_cell_data = parse_unstructured_song_cell(song_cell)
     coach_and_contestant_choice_cell_data = (
-        parse_season_1_coach_and_contestant_choice_cells(coach_choices)
+        parse_season_1_coach_and_contestant_choice_cells(coach_choices, season_coaches)
     )
     contestant_row_data = {
         **name_cell_data,
@@ -144,7 +155,7 @@ def parse_unstructured_contestant_row(contestant_row):
     return contestant_row_data
 
 
-def parse_structured_contestant_row(contestant_row):
+def parse_structured_contestant_row(contestant_row, season_coaches):
     (
         name_cell,
         age_cell,
@@ -161,7 +172,7 @@ def parse_structured_contestant_row(contestant_row):
     song_cell_data = parse_song_cell(song_cell)
     location_cell_data = parse_location_cell(hometown_cell)
     coach_and_contestant_choice_cell_data = parse_coach_and_contestant_choice_cells(
-        [coach_1, coach_2, coach_3, coach_4]
+        [coach_1, coach_2, coach_3, coach_4], season_coaches
     )
     contestant_row_data = {
         **age_cell_data,
@@ -173,7 +184,7 @@ def parse_structured_contestant_row(contestant_row):
     return contestant_row_data
 
 
-def get_season_results(season_soup):
+def get_season_results(season_soup, season_coaches):
     tables = season_soup.find_all("table", class_="wikitable")
     audition_results_tables = [
         table
@@ -184,9 +195,6 @@ def get_season_results(season_soup):
         in [s for s in table.tbody.tr.stripped_strings]
     ]
 
-    judges = [
-        s for s in audition_results_tables[0].tbody.find_all("tr")[1].stripped_strings
-    ]
     results = []
     for table in audition_results_tables:
         processed_table = process_table_row_spans(table, season_soup)
@@ -194,24 +202,36 @@ def get_season_results(season_soup):
             if not contestant_row:
                 continue
             if len(contestant_row) >= 8:
-                contestant_row_data = parse_structured_contestant_row(contestant_row)
+                contestant_row_data = parse_structured_contestant_row(
+                    contestant_row, season_coaches
+                )
             else:
-                contestant_row_data = parse_unstructured_contestant_row(contestant_row)
+                contestant_row_data = parse_unstructured_contestant_row(
+                    contestant_row, season_coaches
+                )
             results.append(contestant_row_data)
-    return results, judges
+    return results
 
 
 if __name__ == "__main__":
     season_urls = [*ALL_SEASON_URLS]
     season_results = []
-    for season_url in season_urls:
+    coach_data = get_coach_data()
+    for season_index, season_url in enumerate(season_urls):
+        human_season = season_index + 1
         season_response = requests.get(
             url=season_url,
         )
         soup = BeautifulSoup(season_response.content, "html.parser")
-        results, judges = get_season_results(soup)
+        season_coaches = coach_data["season_to_coaches"][human_season]
+        results = get_season_results(soup, season_coaches)
         season_results.append(
-            {"results": results, "wiki_url": season_url, "judges": judges}
+            {
+                "blind_auditions_results": results,
+                "wiki_url": season_url,
+                "season": human_season,
+                "coaches": season_coaches,
+            }
         )
 
     save_as_json(season_results, "blind_auditions")
