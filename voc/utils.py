@@ -59,6 +59,7 @@ def save_as_json(data, filename):
 
 
 def gen_all_season_data():
+    # Use either dumped data or fetch live data from wikipedia
     # func = gen_all_season_data_live
     func = gen_all_season_data_offline
     return func()

@@ -8,12 +8,12 @@ from voc.utils import save_as_json
 
 
 def join_all_data():
-    overalL_results_data = get_overall_results_data()
+    overall_results_data = get_overall_results_data()
     blind_auditions_data = get_blind_auditions_data()
     coach_data = get_coach_data()
     seasons_data = []
     for (season_overall_results_data, season_blind_auditions_data) in zip(
-        overalL_results_data, blind_auditions_data
+        overall_results_data, blind_auditions_data
     ):
         joined_data = {**season_overall_results_data, **season_blind_auditions_data}
         seasons_data.append(joined_data)
