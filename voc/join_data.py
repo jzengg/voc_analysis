@@ -1,9 +1,9 @@
-from voc.blind_auditions import get_blind_auditions_data
+from voc.blind_auditions import get_blind_auditions_data, get_contestant_id_to_blind_auditions_data
 from voc.coaches import get_coach_data
 from voc.constants import (
     pp,
 )
-from voc.season_overall_results import get_overall_results_data
+from voc.season_overall_results import get_overall_results_data, get_contestant_id_to_overall_results_data
 from voc.utils import save_as_json
 
 
@@ -21,7 +21,27 @@ def join_all_data():
     return joined_data
 
 
+def join_contestant_id_data():
+    contestant_id_to_blind_auditions_data = get_contestant_id_to_blind_auditions_data()
+    contestant_id_to_overall_results_data = get_contestant_id_to_overall_results_data()
+    contestant_id_to_all_data = {}
+    for contestant_id, blind_auditions_data in contestant_id_to_blind_auditions_data.items():
+        _, _, season_num = contestant_id.split("|")
+        if contestant_id not in contestant_id_to_all_data:
+            contestant_id_to_all_data[contestant_id] = {'season_num': season_num}
+        contestant_id_to_all_data[contestant_id]['blind_auditions_data'] = blind_auditions_data
+    for contestant_id, overall_results_data in contestant_id_to_overall_results_data.items():
+        if contestant_id not in contestant_id_to_all_data:
+            contestant_id_to_all_data[contestant_id] = {}
+        contestant_id_to_all_data[contestant_id]['overall_results_data'] = overall_results_data
+    return contestant_id_to_all_data
+
+
 if __name__ == "__main__":
+    contestant_id_to_data = join_contestant_id_data()
+    pp.pprint(contestant_id_to_data)
+
     all_data = join_all_data()
+    all_data['contestant_id_to_data'] = contestant_id_to_data
     pp.pprint(all_data)
     save_as_json(all_data, "all_data")

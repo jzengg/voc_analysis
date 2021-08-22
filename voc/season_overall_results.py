@@ -106,7 +106,9 @@ def get_season_results(season_soup, season_num) -> Tuple[List[Dict], List[str], 
                 if rank == RankCategory.STOLEN_BY_ANOTHER_COACH:
                     continue
                 if cell.a:
-                    name_data = split_english_and_chinese_name(" ".join([s for s in cell.stripped_strings]))
+                    name_data = split_english_and_chinese_name(
+                        " ".join([s for s in cell.stripped_strings])
+                    )
                 else:
                     name_data = split_english_and_chinese_name(result_raw["content"])
                 result = {
@@ -123,19 +125,31 @@ def get_season_results(season_soup, season_num) -> Tuple[List[Dict], List[str], 
     return coach_results, coach_names, contestant_id_to_results
 
 
+def get_contestant_id_to_overall_results_data():
+    contestant_id_to_results = {}
+    for season_data in gen_all_season_data():
+        season_soup = season_data["season_soup"]
+        season_num = season_data["season_num"]
+        _, _, season_contestant_id_to_results = get_season_results(
+            season_soup, season_num
+        )
+        contestant_id_to_results = {
+            **contestant_id_to_results,
+            **season_contestant_id_to_results,
+        }
+    return contestant_id_to_results
+
+
 def get_overall_results_data():
     season_results = []
     for season_data in gen_all_season_data():
         season_soup = season_data["season_soup"]
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]
-        contestants, coaches, contestant_id_to_results = get_season_results(
-            season_soup, season_num
-        )
+        contestants, coaches, _ = get_season_results(season_soup, season_num)
         season_results.append(
             {
                 "contestant_overall_results": contestants,
-                "contestant_id_to_results": contestant_id_to_results,
                 "season_url": season_url,
                 "season_num": season_num,
                 "coaches": coaches,

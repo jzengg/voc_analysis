@@ -57,7 +57,10 @@ def parse_unstructured_name_cell(cell):
 
 
 def parse_name_cell(cell):
-    tag = cell.a or cell
+    if cell.sup:
+        tag = cell
+    else:
+        tag = cell.a or cell
     name_raw = next(tag.stripped_strings)
     name_data = split_english_and_chinese_name(name_raw)
     return name_data
@@ -131,10 +134,9 @@ def parse_season_1_coach_and_contestant_choice_cells(cells, season_coaches):
 def parse_coach_and_contestant_choice_cells(cells, season_coaches):
     coach_choices = [
         {
-            "coach_turned": next(cell.stripped_strings, "—"),
+            "coach_turned": next(cell.stripped_strings, "—") == "✔",
             "coach_name": season_coaches[index],
         }
-        == "✔"
         for index, cell in enumerate(cells)
     ]
     selected_coach = next(
@@ -231,6 +233,23 @@ def get_season_results(season_soup, season_coaches, season_num):
     return results, contestant_id_to_results
 
 
+def get_contestant_id_to_blind_auditions_data():
+    coach_data = get_coach_data()
+    contestant_id_to_blind_auditions_data = {}
+    for season_data in gen_all_season_data():
+        season_soup = season_data["season_soup"]
+        season_num = season_data["season_num"]
+        season_coaches = coach_data["season_num_to_coaches"][season_num]
+        _, season_contestant_id_to_blind_auditions_data = get_season_results(
+            season_soup, season_coaches, season_num
+        )
+        contestant_id_to_blind_auditions_data = {
+            **contestant_id_to_blind_auditions_data,
+            **season_contestant_id_to_blind_auditions_data,
+        }
+    return contestant_id_to_blind_auditions_data
+
+
 def get_blind_auditions_data():
     season_results = []
     coach_data = get_coach_data()
@@ -239,13 +258,10 @@ def get_blind_auditions_data():
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]
         season_coaches = coach_data["season_num_to_coaches"][season_num]
-        results, contestant_id_to_results = get_season_results(
-            season_soup, season_coaches, season_num
-        )
+        results, _ = get_season_results(season_soup, season_coaches, season_num)
         season_results.append(
             {
                 "blind_auditions_results": results,
-                "contestant_id_to_results": contestant_id_to_results,
                 "season_url": season_url,
                 "season_num": season_num,
                 "coaches": season_coaches,
