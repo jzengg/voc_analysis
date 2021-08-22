@@ -5,6 +5,18 @@ Data about the contestants and coaches from each season of Voice of China and Si
 ### season_overall_results
 each of the contestants that were selected by a coach and how far they got in the season (won, eliminated in playoffs). 
 
+#### Contestant ID
+We can uniquely identify a contestant with a combination of their english name, chinese name and the season number. 
+Data about a contestant can be compared between season_overall_results and blind_auditions using the
+contestant_id which follows this format:
+
+`english_name:<ENGLISH_NAME>|chinese_name:<CHINESE_NAME>|season_num:<SEASON_NUM>`
+
+For example, from season 1, we would have id
+
+`english_name:Kim Ji-mun|chinese_name:金志文|season_num:1`
+
+
 #### Ranking category
 Each contestant is categorized by far how far they made it in the season. 
 This is captured by the rank_category (won the season, was eliminated during the playoffs) 
@@ -16,7 +28,7 @@ should still be considered making it farther than rank value of 5 in season 1
 ### blind_auditions
 coaches that turned for each contestant and which coach a contestant ultimately joined
 
-###  coaches
+### coaches
 listing of all the coaches that have been on the show and which coaches were on which seasons
 
 ### all_data

@@ -92,3 +92,10 @@ def gen_all_season_data_offline():
                 "season_soup": season_soup,
                 "season_url": season_url,
             }
+
+
+def get_contestant_id(contestant_data):
+    english_name = contestant_data["english_name"]
+    chinese_name = contestant_data["chinese_name"]
+    season_num = contestant_data["season_num"]
+    return f"english_name:{english_name}|chinese_name:{chinese_name}|season_num:{season_num}"

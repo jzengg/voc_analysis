@@ -10,6 +10,7 @@ from voc.utils import (
     split_english_and_chinese_name,
     save_as_json,
     gen_all_season_data,
+    get_contestant_id,
 )
 
 INVALID_NAME_COMPONENTS = [","]
@@ -182,7 +183,7 @@ def parse_structured_contestant_row(contestant_row, season_coaches):
     return contestant_row_data
 
 
-def get_season_results(season_soup, season_coaches):
+def get_season_results(season_soup, season_coaches, season_num):
     tables = season_soup.find_all("table", class_="wikitable")
     audition_results_tables = [
         table
@@ -194,6 +195,7 @@ def get_season_results(season_soup, season_coaches):
     ]
 
     results = []
+    contestant_id_to_results = {}
     for table in audition_results_tables:
         processed_table = process_table_row_spans(table, season_soup)
         for contestant_row in processed_table[1:]:
@@ -207,8 +209,15 @@ def get_season_results(season_soup, season_coaches):
                 contestant_row_data = parse_unstructured_contestant_row(
                     contestant_row, season_coaches
                 )
+            name_data = {
+                "english_name": contestant_row_data["english_name"],
+                "chinese_name": contestant_row_data["chinese_name"],
+                "season_num": season_num,
+            }
+            contestant_id = get_contestant_id(name_data)
+            contestant_id_to_results[contestant_id] = contestant_row_data
             results.append(contestant_row_data)
-    return results
+    return results, contestant_id_to_results
 
 
 def get_blind_auditions_data():
@@ -219,10 +228,13 @@ def get_blind_auditions_data():
         season_num = season_data["season_num"]
         season_url = season_data["season_url"]
         season_coaches = coach_data["season_num_to_coaches"][season_num]
-        results = get_season_results(season_soup, season_coaches)
+        results, contestant_id_to_results = get_season_results(
+            season_soup, season_coaches, season_num
+        )
         season_results.append(
             {
                 "blind_auditions_results": results,
+                "contestant_id_to_results": contestant_id_to_results,
                 "season_url": season_url,
                 "season_num": season_num,
                 "coaches": season_coaches,
